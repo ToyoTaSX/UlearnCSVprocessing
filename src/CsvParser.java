@@ -29,7 +29,7 @@ public class CsvParser {
 
     public ArrayList<Student> parseStudents() throws IOException, CsvValidationException {
         var students = new ArrayList<Student>();
-        var reader = getReader();
+        var reader = getReader(3);
         var headers = getHeaders();
         var fullNameIndex = ArrayUtils.indexOf(headers, "Фамилия Имя");
         var ulearnIdIndex = ArrayUtils.indexOf(headers, "Ulearn id");
@@ -122,6 +122,7 @@ public class CsvParser {
         var result = new HashMap<String, HashMap<String, Integer>>();
         var reader = getReader(1);
         var headerRow = reader.readNext();
+        reader.readNext();
         for (var key: colIndexes.keySet()) {
             result.put(key, new HashMap<String, Integer>());
         }
