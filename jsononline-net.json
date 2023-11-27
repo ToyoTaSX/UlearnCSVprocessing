@@ -1,0 +1,4990 @@
+{
+  "id": "BasicProgramming",
+  "title": "Основы программирования",
+  "description": "",
+  "units": [
+    {
+      "id": "e1beb629-6f24-279a-3040-cf111f91e764",
+      "title": "Первое знакомство с C#",
+      "slides": [
+        {
+          "id": "69a2e121-e58f-4cd0-8221-7affb7dc796e",
+          "title": "Краткая справка перед началом",
+          "slug": "Kratkaya_spravka_pered_nachalom_69a2e121-e58f-4cd0-8221-7affb7dc796e",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/69a2e121-e58f-4cd0-8221-7affb7dc796e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "70597ba7-f436-4301-816d-17dc34551bdb",
+          "title": "Hello world",
+          "slug": "Hello_world_70597ba7-f436-4301-816d-17dc34551bdb",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/70597ba7-f436-4301-816d-17dc34551bdb",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7e91aee8-0312-4298-b0e2-5d84f81bcd27",
+          "title": "Терминология",
+          "slug": "Terminologiya_7e91aee8-0312-4298-b0e2-5d84f81bcd27",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/7e91aee8-0312-4298-b0e2-5d84f81bcd27",
+          "questionsCount": 5,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "90bcb61e-57f0-4baa-8bc9-10c9cfd27f58",
+          "title": "Первый шаг",
+          "slug": "Pervyy_shag_90bcb61e-57f0-4baa-8bc9-10c9cfd27f58",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/90bcb61e-57f0-4baa-8bc9-10c9cfd27f58",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a36a9029-b83f-436e-a2b9-81e519d9a32d",
+          "title": "Источники информации",
+          "slug": "Istochniki_informatsii_a36a9029-b83f-436e-a2b9-81e519d9a32d",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/a36a9029-b83f-436e-a2b9-81e519d9a32d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8e4d3d2e-cb33-4b93-a4ea-f75dde615cf8",
+          "title": "Числовые типы данных",
+          "slug": "Chislovye_tipy_dannykh_8e4d3d2e-cb33-4b93-a4ea-f75dde615cf8",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/8e4d3d2e-cb33-4b93-a4ea-f75dde615cf8",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "38fd7db3-e4e5-4ec1-acbd-30f3a55a70f4",
+          "title": "Неверный тип данных",
+          "slug": "Nevernyy_tip_dannykh_38fd7db3-e4e5-4ec1-acbd-30f3a55a70f4",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/38fd7db3-e4e5-4ec1-acbd-30f3a55a70f4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "04d61c06-8a32-41a6-a47e-2ae2d095def3",
+          "title": "Ошибки преобразования типов",
+          "slug": "Oshibki_preobrazovaniya_tipov_04d61c06-8a32-41a6-a47e-2ae2d095def3",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/04d61c06-8a32-41a6-a47e-2ae2d095def3",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2b6e076c-4617-4322-9bde-c44a1d4f394f",
+          "title": "Биткоины в массы!",
+          "slug": "Bitkoiny_v_massy__2b6e076c-4617-4322-9bde-c44a1d4f394f",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/2b6e076c-4617-4322-9bde-c44a1d4f394f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "486be963-fbda-4c05-b56a-c226a39c3b78",
+          "title": "Строки",
+          "slug": "Stroki_486be963-fbda-4c05-b56a-c226a39c3b78",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/486be963-fbda-4c05-b56a-c226a39c3b78",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "ace76228-b605-43b8-ac8d-4c85033ac7df",
+          "title": "Преобразование строки в число",
+          "slug": "Preobrazovanie_stroki_v_chislo_ace76228-b605-43b8-ac8d-4c85033ac7df",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/ace76228-b605-43b8-ac8d-4c85033ac7df",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "03dba3bd-60d3-417f-a44c-d5319da3245f",
+          "title": "Арифметические операции и var",
+          "slug": "Arifmeticheskie_operatsii_i_var_03dba3bd-60d3-417f-a44c-d5319da3245f",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/03dba3bd-60d3-417f-a44c-d5319da3245f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "956a2160-ceb6-4485-8a94-c39dfe364f48",
+          "title": "Использование var",
+          "slug": "Ispol_zovanie_var_956a2160-ceb6-4485-8a94-c39dfe364f48",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/956a2160-ceb6-4485-8a94-c39dfe364f48",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "45b1b595-0489-4713-bc82-22e188fd8472",
+          "title": "Методы",
+          "slug": "Metody_45b1b595-0489-4713-bc82-22e188fd8472",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/45b1b595-0489-4713-bc82-22e188fd8472",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f6559650-b3af-4e5e-be84-941fb21bc2ac",
+          "title": "Добрый работодатель",
+          "slug": "Dobryy_rabotodatel__f6559650-b3af-4e5e-be84-941fb21bc2ac",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/f6559650-b3af-4e5e-be84-941fb21bc2ac",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d5b59540-410f-4f6d-8f04-b5613e264bd5",
+          "title": "Главный вопрос Вселенной",
+          "slug": "Glavnyy_vopros_Vselennoy_d5b59540-410f-4f6d-8f04-b5613e264bd5",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/d5b59540-410f-4f6d-8f04-b5613e264bd5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d8578c7f-d7e2-4ce5-a3be-e6e32d9ac63e",
+          "title": "Разыскиваются методы!",
+          "slug": "Razyskivayutsya_metody__d8578c7f-d7e2-4ce5-a3be-e6e32d9ac63e",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/d8578c7f-d7e2-4ce5-a3be-e6e32d9ac63e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3d36666d-c973-4c0a-938a-ac71ce3847fe",
+          "title": "Переменные",
+          "slug": "Peremennye_3d36666d-c973-4c0a-938a-ac71ce3847fe",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3d36666d-c973-4c0a-938a-ac71ce3847fe",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a7a73125-2434-4b5d-9f31-4ef687fc8bcc",
+          "title": "Области видимости",
+          "slug": "Oblasti_vidimosti_a7a73125-2434-4b5d-9f31-4ef687fc8bcc",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/a7a73125-2434-4b5d-9f31-4ef687fc8bcc",
+          "questionsCount": 5,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7e536978-d860-4cca-a690-da1032a30bd5",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_7e536978-d860-4cca-a690-da1032a30bd5",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/7e536978-d860-4cca-a690-da1032a30bd5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "aef25d82-818b-4a50-a2f0-bba842eeeedc",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_aef25d82-818b-4a50-a2f0-bba842eeeedc",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/aef25d82-818b-4a50-a2f0-bba842eeeedc",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "6c13729e-817b-a437-b9d3-275c01f8f4a8",
+      "title": "Ошибки",
+      "slides": [
+        {
+          "id": "ba4e3423-423a-4622-b2ca-0495f628cf74",
+          "title": "Ошибки на этапе компиляции",
+          "slug": "Oshibki_na_etape_kompilyatsii_ba4e3423-423a-4622-b2ca-0495f628cf74",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/ba4e3423-423a-4622-b2ca-0495f628cf74",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "db95da10-7dd2-46ca-bfb2-6d0d7554b83f",
+          "title": "Ошибки компиляции",
+          "slug": "Oshibki_kompilyatsii_db95da10-7dd2-46ca-bfb2-6d0d7554b83f",
+          "maxScore": 2,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/db95da10-7dd2-46ca-bfb2-6d0d7554b83f",
+          "questionsCount": 2,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7e86a275-9b84-4071-a0a3-2d1fe17b0df1",
+          "title": "Очепятки",
+          "slug": "Ochepyatki_7e86a275-9b84-4071-a0a3-2d1fe17b0df1",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/7e86a275-9b84-4071-a0a3-2d1fe17b0df1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "5f84c5fc-f58e-4bd4-8f05-cb372793c5ff",
+          "title": "Ошибки на этапе выполнения",
+          "slug": "Oshibki_na_etape_vypolneniya_5f84c5fc-f58e-4bd4-8f05-cb372793c5ff",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/5f84c5fc-f58e-4bd4-8f05-cb372793c5ff",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "754b8dcb-e6f6-44a9-aee6-9972beb9af7c",
+          "title": "Минимум функции",
+          "slug": "Minimum_funktsii_754b8dcb-e6f6-44a9-aee6-9972beb9af7c",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/754b8dcb-e6f6-44a9-aee6-9972beb9af7c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "5a1602f6-9926-4309-9cb2-21ec6bd1d840",
+          "title": "Отладка",
+          "slug": "Otladka_5a1602f6-9926-4309-9cb2-21ec6bd1d840",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/5a1602f6-9926-4309-9cb2-21ec6bd1d840",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f67dd611-3160-443d-ae96-3d9952a8f9ee",
+          "title": "Горячие клавиши отладки",
+          "slug": "Goryachie_klavishi_otladki_f67dd611-3160-443d-ae96-3d9952a8f9ee",
+          "maxScore": 1,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/f67dd611-3160-443d-ae96-3d9952a8f9ee",
+          "questionsCount": 1,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2d586c07-db8d-439b-b651-28057fd5e7f3",
+          "title": "Эксперименты",
+          "slug": "Eksperimenty_2d586c07-db8d-439b-b651-28057fd5e7f3",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2d586c07-db8d-439b-b651-28057fd5e7f3",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a9b1b06f-8135-43ae-ad4f-afce87906378",
+          "title": "Стилистические ошибки",
+          "slug": "Stilisticheskie_oshibki_a9b1b06f-8135-43ae-ad4f-afce87906378",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/a9b1b06f-8135-43ae-ad4f-afce87906378",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "677bdd3b-468d-4ccc-9af8-c2644db494a8",
+          "title": "Рефакторинг",
+          "slug": "Refaktoring_677bdd3b-468d-4ccc-9af8-c2644db494a8",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/677bdd3b-468d-4ccc-9af8-c2644db494a8",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c7af0cfa-60ca-4b34-8c0b-e1f5658e7919",
+          "title": "Дизайн кода",
+          "slug": "Dizayn_koda_c7af0cfa-60ca-4b34-8c0b-e1f5658e7919",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/c7af0cfa-60ca-4b34-8c0b-e1f5658e7919",
+          "questionsCount": 5,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f1740706-b8e2-4bd4-ab87-3cc710a52449",
+          "title": "Константы и enum'ы",
+          "slug": "Konstanty_i_enum_y_f1740706-b8e2-4bd4-ab87-3cc710a52449",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/f1740706-b8e2-4bd4-ab87-3cc710a52449",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f2c3bc26-335e-4267-844c-38437c74f197",
+          "title": "Выделение методов",
+          "slug": "Vydelenie_metodov_f2c3bc26-335e-4267-844c-38437c74f197",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/f2c3bc26-335e-4267-844c-38437c74f197",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "240e30ea-7982-4713-9509-d87954870489",
+          "title": "Рефакторинг и улучшение кода",
+          "slug": "Refaktoring_i_uluchshenie_koda_240e30ea-7982-4713-9509-d87954870489",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/240e30ea-7982-4713-9509-d87954870489",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a17e70fa-26f9-45d7-a7ed-4a4c96cacec9",
+          "title": "Сделай то, не знаю что",
+          "slug": "Sdelay_to_ne_znayu_chto_a17e70fa-26f9-45d7-a7ed-4a4c96cacec9",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/a17e70fa-26f9-45d7-a7ed-4a4c96cacec9",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d88cca37-1466-4518-9631-bc28f30372da",
+          "title": "Настройка свойств проекта",
+          "slug": "Nastroyka_svoystv_proekta_d88cca37-1466-4518-9631-bc28f30372da",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/d88cca37-1466-4518-9631-bc28f30372da",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a99c8ea4-1033-4394-bb87-98e146f56668",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_a99c8ea4-1033-4394-bb87-98e146f56668",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/a99c8ea4-1033-4394-bb87-98e146f56668",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9fdf2523-85d0-4180-8ef5-88ab8d6b21ff",
+          "title": "Практика «Angry Birds»",
+          "slug": "Praktika_Angry_Birds__9fdf2523-85d0-4180-8ef5-88ab8d6b21ff",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/9fdf2523-85d0-4180-8ef5-88ab8d6b21ff",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e191b760-98cd-4d54-981a-971f0b4e319d",
+          "title": "Практика «Бильярд»",
+          "slug": "Praktika_Bil_yard__e191b760-98cd-4d54-981a-971f0b4e319d",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e191b760-98cd-4d54-981a-971f0b4e319d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6cc09002-9973-4328-a31b-c7343f8c6b5d",
+          "title": "Практика «Проценты»",
+          "slug": "Praktika_Protsenty__6cc09002-9973-4328-a31b-c7343f8c6b5d",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/6cc09002-9973-4328-a31b-c7343f8c6b5d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "51aa14fb-1176-474f-a7ca-aafb86ff1967",
+          "title": "Практика «Рефакторинг»",
+          "slug": "Praktika_Refaktoring__51aa14fb-1176-474f-a7ca-aafb86ff1967",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/51aa14fb-1176-474f-a7ca-aafb86ff1967",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d6cc4e30-a72f-4daa-ac1f-aa9e69deb91f",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_d6cc4e30-a72f-4daa-ac1f-aa9e69deb91f",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/d6cc4e30-a72f-4daa-ac1f-aa9e69deb91f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "148775ee-9ffa-8932-64d6-d64380484169",
+      "title": "Ветвления",
+      "slides": [
+        {
+          "id": "b9d7e382-84ce-43f7-941b-c507fef25a41",
+          "title": "Сравнение и логический тип",
+          "slug": "Sravnenie_i_logicheskiy_tip_b9d7e382-84ce-43f7-941b-c507fef25a41",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/b9d7e382-84ce-43f7-941b-c507fef25a41",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4c161b1e-2637-447b-adfd-14647bf659ad",
+          "title": "Високосный год",
+          "slug": "Visokosnyy_god_4c161b1e-2637-447b-adfd-14647bf659ad",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/4c161b1e-2637-447b-adfd-14647bf659ad",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1e844dc5-c026-4acc-b28f-086a2e7c6f8e",
+          "title": "Сравнение чисел с плавающей точкой",
+          "slug": "Sravnenie_chisel_s_plavayushchey_tochkoy_1e844dc5-c026-4acc-b28f-086a2e7c6f8e",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/1e844dc5-c026-4acc-b28f-086a2e7c6f8e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "fd079873-dc0c-4128-84bc-e40fb97d3ded",
+          "title": "Полные и сокращенные операции",
+          "slug": "Polnye_i_sokrashchennye_operatsii_fd079873-dc0c-4128-84bc-e40fb97d3ded",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/fd079873-dc0c-4128-84bc-e40fb97d3ded",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "eb11dfb6-5629-4d13-819b-6411b9f93df6",
+          "title": "Ход ферзя",
+          "slug": "Khod_ferzya_eb11dfb6-5629-4d13-819b-6411b9f93df6",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/eb11dfb6-5629-4d13-819b-6411b9f93df6",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "bb48d244-6b0a-4497-aa34-97f41280e99d",
+          "title": "Операторы If и Else",
+          "slug": "Operatory_If_i_Else_bb48d244-6b0a-4497-aa34-97f41280e99d",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/bb48d244-6b0a-4497-aa34-97f41280e99d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "937c4e64-7144-4f52-a75d-4bdc95bbde72",
+          "title": "Среднее трех",
+          "slug": "Srednee_trekh_937c4e64-7144-4f52-a75d-4bdc95bbde72",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/937c4e64-7144-4f52-a75d-4bdc95bbde72",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0fda40fe-41e6-4cfe-a22a-c1722659f697",
+          "title": "Типичные ошибки ветвлений",
+          "slug": "Tipichnye_oshibki_vetvleniy_0fda40fe-41e6-4cfe-a22a-c1722659f697",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0fda40fe-41e6-4cfe-a22a-c1722659f697",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "38f6a76a-2b21-4167-b611-d97c56142990",
+          "title": "Логические выражения и условия",
+          "slug": "Logicheskie_vyrazheniya_i_usloviya_38f6a76a-2b21-4167-b611-d97c56142990",
+          "maxScore": 3,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/38f6a76a-2b21-4167-b611-d97c56142990",
+          "questionsCount": 3,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "50ac4fc7-a6e1-4c4e-8c61-ecc75aeb912e",
+          "title": "Управление роботом",
+          "slug": "Upravlenie_robotom_50ac4fc7-a6e1-4c4e-8c61-ecc75aeb912e",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/50ac4fc7-a6e1-4c4e-8c61-ecc75aeb912e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "90d771b0-f8b0-443a-945f-2eeeec96a6c4",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_90d771b0-f8b0-443a-945f-2eeeec96a6c4",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/90d771b0-f8b0-443a-945f-2eeeec96a6c4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f105cca4-2fe6-4842-9894-028c9c6b10b5",
+          "title": "Практика «Рубль -лей -ля»",
+          "slug": "Praktika_Rubl_ley_lya__f105cca4-2fe6-4842-9894-028c9c6b10b5",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/f105cca4-2fe6-4842-9894-028c9c6b10b5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1da7338b-910e-45af-9648-dcf615bf2f1c",
+          "title": "Практика «Два прямоугольника»",
+          "slug": "Praktika_Dva_pryamougol_nika__1da7338b-910e-45af-9648-dcf615bf2f1c",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/1da7338b-910e-45af-9648-dcf615bf2f1c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "da80ee9b-a2f1-4648-87c2-1a8170561bf0",
+          "title": "Практика «Расстояние до отрезка»",
+          "slug": "Praktika_Rasstoyanie_do_otrezka__da80ee9b-a2f1-4648-87c2-1a8170561bf0",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/da80ee9b-a2f1-4648-87c2-1a8170561bf0",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "609e4aa9-0d76-4e33-90a8-b3340b266391",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_609e4aa9-0d76-4e33-90a8-b3340b266391",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/609e4aa9-0d76-4e33-90a8-b3340b266391",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "d083f956-8fa4-6024-04da-cfc8e17bd9db",
+      "title": "Циклы",
+      "slides": [
+        {
+          "id": "3346baa2-9436-46fa-ac7c-3d392ce858b3",
+          "title": "While",
+          "slug": "While_3346baa2-9436-46fa-ac7c-3d392ce858b3",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3346baa2-9436-46fa-ac7c-3d392ce858b3",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4158c9a6-a71d-4015-a283-def12be0055e",
+          "title": "В поисках степени двойки",
+          "slug": "V_poiskakh_stepeni_dvoyki_4158c9a6-a71d-4015-a283-def12be0055e",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/4158c9a6-a71d-4015-a283-def12be0055e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0aae7844-95e5-48e1-8383-12918cbcb725",
+          "title": "Рефакторинг while",
+          "slug": "Refaktoring_while_0aae7844-95e5-48e1-8383-12918cbcb725",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0aae7844-95e5-48e1-8383-12918cbcb725",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9a15ebd5-0616-4a18-b842-e63e2c3c21fa",
+          "title": "Убрать пробелы",
+          "slug": "Ubrat_probely_9a15ebd5-0616-4a18-b842-e63e2c3c21fa",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/9a15ebd5-0616-4a18-b842-e63e2c3c21fa",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1edb84f9-a115-42f9-94b3-d99b1b11eaac",
+          "title": "Циклы for",
+          "slug": "Tsikly_for_1edb84f9-a115-42f9-94b3-d99b1b11eaac",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/1edb84f9-a115-42f9-94b3-d99b1b11eaac",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6923aa65-95e0-4b5e-a98d-b286fd0b2153",
+          "title": "Рамочка",
+          "slug": "Ramochka_6923aa65-95e0-4b5e-a98d-b286fd0b2153",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/6923aa65-95e0-4b5e-a98d-b286fd0b2153",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "fa170247-1e5e-48c4-82b9-bbddcdeefa00",
+          "title": "Сравнение for и while",
+          "slug": "Sravnenie_for_i_while_fa170247-1e5e-48c4-82b9-bbddcdeefa00",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/fa170247-1e5e-48c4-82b9-bbddcdeefa00",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8e561342-9f4b-411d-bb9b-741a3677f696",
+          "title": "* Шахматная доска",
+          "slug": "_Shakhmatnaya_doska_8e561342-9f4b-411d-bb9b-741a3677f696",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/8e561342-9f4b-411d-bb9b-741a3677f696",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7833adde-01f1-4912-8bbe-1c4856d222d7",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_7833adde-01f1-4912-8bbe-1c4856d222d7",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/7833adde-01f1-4912-8bbe-1c4856d222d7",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6dd79ed2-2d6e-487f-88dc-7414a15600fa",
+          "title": "Практика «Пустой лабиринт»",
+          "slug": "Praktika_Pustoy_labirint__6dd79ed2-2d6e-487f-88dc-7414a15600fa",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/6dd79ed2-2d6e-487f-88dc-7414a15600fa",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "68c9791d-1d2e-4463-b105-2da501c12949",
+          "title": "Практика «Лабиринт змейка»",
+          "slug": "Praktika_Labirint_zmeyka__68c9791d-1d2e-4463-b105-2da501c12949",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/68c9791d-1d2e-4463-b105-2da501c12949",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e5f12764-5945-41d7-a02f-7664d422d600",
+          "title": "Практика «Лабиринт диагональ»",
+          "slug": "Praktika_Labirint_diagonal__e5f12764-5945-41d7-a02f-7664d422d600",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e5f12764-5945-41d7-a02f-7664d422d600",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f9dd2a00-cc48-42d7-914a-813e3f9847e0",
+          "title": "Практика «Dragon curve»",
+          "slug": "Praktika_Dragon_curve__f9dd2a00-cc48-42d7-914a-813e3f9847e0",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/f9dd2a00-cc48-42d7-914a-813e3f9847e0",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0865f870-5350-4907-a8f7-2708d1326f13",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_0865f870-5350-4907-a8f7-2708d1326f13",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0865f870-5350-4907-a8f7-2708d1326f13",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "c777829b-7226-9049-ddf9-895234334f3f",
+      "title": "Массивы",
+      "slides": [
+        {
+          "id": "728f7ec0-e504-4896-a75f-a663a8be5c3d",
+          "title": "Массивы и foreach",
+          "slug": "Massivy_i_foreach_728f7ec0-e504-4896-a75f-a663a8be5c3d",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/728f7ec0-e504-4896-a75f-a663a8be5c3d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "ceb81eac-069c-4d5d-87b7-ebd9b140e143",
+          "title": "Четный массив",
+          "slug": "Chetnyy_massiv_ceb81eac-069c-4d5d-87b7-ebd9b140e143",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/ceb81eac-069c-4d5d-87b7-ebd9b140e143",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "043015a0-0b28-4435-8079-21e4ca8e6526",
+          "title": "Индекс максимума",
+          "slug": "Indeks_maksimuma_043015a0-0b28-4435-8079-21e4ca8e6526",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/043015a0-0b28-4435-8079-21e4ca8e6526",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9eb1a5c2-135d-49a5-a922-0f3f91566080",
+          "title": "Подсчет",
+          "slug": "Podschet_9eb1a5c2-135d-49a5-a922-0f3f91566080",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/9eb1a5c2-135d-49a5-a922-0f3f91566080",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "df8d1ca7-9aab-4816-8047-a834c6ca64d4",
+          "title": "Поиск массива в массиве",
+          "slug": "Poisk_massiva_v_massive_df8d1ca7-9aab-4816-8047-a834c6ca64d4",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/df8d1ca7-9aab-4816-8047-a834c6ca64d4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6941594b-3e70-4194-a553-31b7a5def543",
+          "title": "Короткая форма записи",
+          "slug": "Korotkaya_forma_zapisi_6941594b-3e70-4194-a553-31b7a5def543",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/6941594b-3e70-4194-a553-31b7a5def543",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "26c265ba-ea70-4aa9-bf6b-5c215576a3ab",
+          "title": "Карты Таро",
+          "slug": "Karty_Taro_26c265ba-ea70-4aa9-bf6b-5c215576a3ab",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/26c265ba-ea70-4aa9-bf6b-5c215576a3ab",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "45a4bd20-d8fc-4931-8d8a-5d74eb388290",
+          "title": "Типы ссылки и типы значения",
+          "slug": "Tipy_ssylki_i_tipy_znacheniya_45a4bd20-d8fc-4931-8d8a-5d74eb388290",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/45a4bd20-d8fc-4931-8d8a-5d74eb388290",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9dd6427f-dd99-4271-9e3e-5eddfd286d9e",
+          "title": "Передача массива в метод",
+          "slug": "Peredacha_massiva_v_metod_9dd6427f-dd99-4271-9e3e-5eddfd286d9e",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/9dd6427f-dd99-4271-9e3e-5eddfd286d9e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4ac3969d-c84b-4be2-9bcc-f4015f5df5a1",
+          "title": "Карты памяти",
+          "slug": "Karty_pamyati_4ac3969d-c84b-4be2-9bcc-f4015f5df5a1",
+          "maxScore": 6,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/4ac3969d-c84b-4be2-9bcc-f4015f5df5a1",
+          "questionsCount": 6,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "05581efc-0377-438e-b6c6-90778d3c8922",
+          "title": "Null или не Null?",
+          "slug": "Null_ili_ne_Null__05581efc-0377-438e-b6c6-90778d3c8922",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/05581efc-0377-438e-b6c6-90778d3c8922",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e3e45ec7-7bd0-4284-8ca1-0fbcb2fa0c21",
+          "title": "Возвести массив в степень",
+          "slug": "Vozvesti_massiv_v_stepen__e3e45ec7-7bd0-4284-8ca1-0fbcb2fa0c21",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e3e45ec7-7bd0-4284-8ca1-0fbcb2fa0c21",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8c0ee068-77e0-443f-8ffb-fe89cbdb57c0",
+          "title": "Многомерные массивы",
+          "slug": "Mnogomernye_massivy_8c0ee068-77e0-443f-8ffb-fe89cbdb57c0",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/8c0ee068-77e0-443f-8ffb-fe89cbdb57c0",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "49b56a8a-f0d1-4829-ae6f-eb2b6b69f63f",
+          "title": "Массивы массивов",
+          "slug": "Massivy_massivov_49b56a8a-f0d1-4829-ae6f-eb2b6b69f63f",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/49b56a8a-f0d1-4829-ae6f-eb2b6b69f63f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1e59b86f-b09c-44a9-a214-4169ddeab366",
+          "title": "Массивы",
+          "slug": "Massivy_1e59b86f-b09c-44a9-a214-4169ddeab366",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/1e59b86f-b09c-44a9-a214-4169ddeab366",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b4f3138d-5cdb-4f8a-9976-e0f4d379687a",
+          "title": "* Крестики-нолики",
+          "slug": "_Krestiki_noliki_b4f3138d-5cdb-4f8a-9976-e0f4d379687a",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/b4f3138d-5cdb-4f8a-9976-e0f4d379687a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a577bb95-e437-4f02-860d-6cbcb57b9ab2",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_a577bb95-e437-4f02-860d-6cbcb57b9ab2",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/a577bb95-e437-4f02-860d-6cbcb57b9ab2",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2657d334-82d7-460f-a5e5-5910ce95372e",
+          "title": "Практика «Гистограмма»",
+          "slug": "Praktika_Gistogramma__2657d334-82d7-460f-a5e5-5910ce95372e",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/2657d334-82d7-460f-a5e5-5910ce95372e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a7b3118a-cb3d-4715-b03a-a31a7c3ea9ec",
+          "title": "Практика «Тепловая карта»",
+          "slug": "Praktika_Teplovaya_karta__a7b3118a-cb3d-4715-b03a-a31a7c3ea9ec",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/a7b3118a-cb3d-4715-b03a-a31a7c3ea9ec",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "60603be1-31b1-4653-961c-be9fc2f02157",
+          "title": "Практика «Интересное про имена»",
+          "slug": "Praktika_Interesnoe_pro_imena__60603be1-31b1-4653-961c-be9fc2f02157",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/60603be1-31b1-4653-961c-be9fc2f02157",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0df250b0-6288-4810-be5e-0512e39618e2",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_0df250b0-6288-4810-be5e-0512e39618e2",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0df250b0-6288-4810-be5e-0512e39618e2",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 100,
+          "id": "homework",
+          "name": "Домашние задачи",
+          "abbreviation": "ДЗ",
+          "description": "Задачи, которые студенты выполняют дома, проходят ревью онлайн и сдают доработки на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "7d679719-4676-36c4-f4b3-44682fd6d8b0",
+      "title": "Коллекции, строки, файлы",
+      "slides": [
+        {
+          "id": "eb0af5c2-4d17-4723-ba84-75cf9f9ee8d1",
+          "title": "Списки",
+          "slug": "Spiski_eb0af5c2-4d17-4723-ba84-75cf9f9ee8d1",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/eb0af5c2-4d17-4723-ba84-75cf9f9ee8d1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "673c8a47-9560-4458-9bd9-a0c0b58466aa",
+          "title": "Шифр незнакомки",
+          "slug": "Shifr_neznakomki_673c8a47-9560-4458-9bd9-a0c0b58466aa",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/673c8a47-9560-4458-9bd9-a0c0b58466aa",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c03e8a39-957d-4a82-8cd6-72be3cd53db1",
+          "title": "Словари",
+          "slug": "Slovari_c03e8a39-957d-4a82-8cd6-72be3cd53db1",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/c03e8a39-957d-4a82-8cd6-72be3cd53db1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9a4d5ff4-2331-4bef-a3ee-88e54bec88c8",
+          "title": "Полезные знакомства",
+          "slug": "Poleznye_znakomstva_9a4d5ff4-2331-4bef-a3ee-88e54bec88c8",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/9a4d5ff4-2331-4bef-a3ee-88e54bec88c8",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "36d56e61-302d-4e58-a1cc-bc9c1b242d48",
+          "title": "Сравнение строк и массивов",
+          "slug": "Sravnenie_strok_i_massivov_36d56e61-302d-4e58-a1cc-bc9c1b242d48",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/36d56e61-302d-4e58-a1cc-bc9c1b242d48",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a9c07641-e5a5-4858-9216-c1333fc50f52",
+          "title": "Карты памяти",
+          "slug": "Karty_pamyati_a9c07641-e5a5-4858-9216-c1333fc50f52",
+          "maxScore": 3,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/a9c07641-e5a5-4858-9216-c1333fc50f52",
+          "questionsCount": 3,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "66e248f0-2828-4e23-8d47-eb4e1cdb64b9",
+          "title": "Закон Бенфорда",
+          "slug": "Zakon_Benforda_66e248f0-2828-4e23-8d47-eb4e1cdb64b9",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/66e248f0-2828-4e23-8d47-eb4e1cdb64b9",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0260707c-b6f6-4e93-b445-68962b241709",
+          "title": "Split и Join",
+          "slug": "Split_i_Join_0260707c-b6f6-4e93-b445-68962b241709",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/0260707c-b6f6-4e93-b445-68962b241709",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "219100aa-04d8-4731-b6e7-75e9383eff7b",
+          "title": "StringBuilder",
+          "slug": "StringBuilder_219100aa-04d8-4731-b6e7-75e9383eff7b",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/219100aa-04d8-4731-b6e7-75e9383eff7b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "741d39bd-d543-40d2-abbc-941c7f778106",
+          "title": "Снова незнакомка",
+          "slug": "Snova_neznakomka_741d39bd-d543-40d2-abbc-941c7f778106",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/741d39bd-d543-40d2-abbc-941c7f778106",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "cb90038b-c6ea-46cf-a181-6d572b2d517e",
+          "title": "Специальные символы",
+          "slug": "Spetsial_nye_simvoly_cb90038b-c6ea-46cf-a181-6d572b2d517e",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/cb90038b-c6ea-46cf-a181-6d572b2d517e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3782dc47-c7b1-49da-bb4a-5ac69c0f5948",
+          "title": "Форматированный вывод",
+          "slug": "Formatirovannyy_vyvod_3782dc47-c7b1-49da-bb4a-5ac69c0f5948",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3782dc47-c7b1-49da-bb4a-5ac69c0f5948",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "5c7a4fe0-7020-4812-9140-f59c0b232226",
+          "title": "Работа со строками",
+          "slug": "Rabota_so_strokami_5c7a4fe0-7020-4812-9140-f59c0b232226",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/5c7a4fe0-7020-4812-9140-f59c0b232226",
+          "questionsCount": 5,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "34344188-0135-47f4-9e82-f6749d23de14",
+          "title": "Файлы и каталоги",
+          "slug": "Fayly_i_katalogi_34344188-0135-47f4-9e82-f6749d23de14",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/34344188-0135-47f4-9e82-f6749d23de14",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "57691cf5-8def-4747-9f41-ba9d74f8882a",
+          "title": "Кодировка и работа с файлами",
+          "slug": "Kodirovka_i_rabota_s_faylami_57691cf5-8def-4747-9f41-ba9d74f8882a",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/57691cf5-8def-4747-9f41-ba9d74f8882a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0b02b282-cfb1-4955-ae6b-981ca80ae3f0",
+          "title": "Работа с файлами",
+          "slug": "Rabota_s_faylami_0b02b282-cfb1-4955-ae6b-981ca80ae3f0",
+          "maxScore": 6,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/0b02b282-cfb1-4955-ae6b-981ca80ae3f0",
+          "questionsCount": 6,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d2ccb0f7-5f1a-42fd-9b04-90248a5ca9b4",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_d2ccb0f7-5f1a-42fd-9b04-90248a5ca9b4",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/d2ccb0f7-5f1a-42fd-9b04-90248a5ca9b4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "682b62d7-8484-445d-a31d-09d6e68f98a3",
+          "title": "Практика «Генерация текстов»",
+          "slug": "Praktika_Generatsiya_tekstov__682b62d7-8484-445d-a31d-09d6e68f98a3",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/682b62d7-8484-445d-a31d-09d6e68f98a3",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d41a27ad-a377-4fbd-ba1c-1bd761c69dd1",
+          "title": "Практика «Парсер предложений»",
+          "slug": "Praktika_Parser_predlozheniy__d41a27ad-a377-4fbd-ba1c-1bd761c69dd1",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/d41a27ad-a377-4fbd-ba1c-1bd761c69dd1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "eb894d4d-5854-4684-898b-5480895685e5",
+          "title": "Практика «Частотность N-грамм»",
+          "slug": "Praktika_Chastotnost_N_gramm__eb894d4d-5854-4684-898b-5480895685e5",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/eb894d4d-5854-4684-898b-5480895685e5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f68587ec-e031-486d-9fe6-57f3dfc8f7e6",
+          "title": "Практика «Продолжение текста»",
+          "slug": "Praktika_Prodolzhenie_teksta__f68587ec-e031-486d-9fe6-57f3dfc8f7e6",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/f68587ec-e031-486d-9fe6-57f3dfc8f7e6",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "93d8c5fe-8ac3-4a80-b64e-41ccc933f913",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_93d8c5fe-8ac3-4a80-b64e-41ccc933f913",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/93d8c5fe-8ac3-4a80-b64e-41ccc933f913",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "0299fc2c-1fdc-d85d-d654-4a6a1353f64d",
+      "title": "Тестирование",
+      "slides": [
+        {
+          "id": "fc83621d-5787-42fa-81b9-4ba30575c963",
+          "title": "Тестирование",
+          "slug": "Testirovanie_fc83621d-5787-42fa-81b9-4ba30575c963",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/fc83621d-5787-42fa-81b9-4ba30575c963",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "68d3e81b-cadc-4029-9dfb-fa103a8e9e41",
+          "title": "Тестирование",
+          "slug": "Testirovanie_68d3e81b-cadc-4029-9dfb-fa103a8e9e41",
+          "maxScore": 2,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/68d3e81b-cadc-4029-9dfb-fa103a8e9e41",
+          "questionsCount": 2,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3858d717-5752-44e9-a29f-31de96e1d793",
+          "title": "Библиотеки",
+          "slug": "Biblioteki_3858d717-5752-44e9-a29f-31de96e1d793",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3858d717-5752-44e9-a29f-31de96e1d793",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a6a25e35-38a4-4caa-a1ac-699e2c0a0778",
+          "title": "Модульные тесты",
+          "slug": "Modul_nye_testy_a6a25e35-38a4-4caa-a1ac-699e2c0a0778",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/a6a25e35-38a4-4caa-a1ac-699e2c0a0778",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c92a05e8-e3fc-486d-9a66-712f2dffde5b",
+          "title": "Больше тестов!",
+          "slug": "Bol_she_testov__c92a05e8-e3fc-486d-9a66-712f2dffde5b",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/c92a05e8-e3fc-486d-9a66-712f2dffde5b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b3c57621-cee2-44cd-8c13-577c56245e13",
+          "title": "Модульные тесты",
+          "slug": "Modul_nye_testy_b3c57621-cee2-44cd-8c13-577c56245e13",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/b3c57621-cee2-44cd-8c13-577c56245e13",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2971a973-379e-40ab-ad5e-49c398fa8567",
+          "title": "Покрытие тестами",
+          "slug": "Pokrytie_testami_2971a973-379e-40ab-ad5e-49c398fa8567",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2971a973-379e-40ab-ad5e-49c398fa8567",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0c204a2b-8725-43a8-be0c-7efdbc8dbece",
+          "title": "Функциональное тестирование",
+          "slug": "Funktsional_noe_testirovanie_0c204a2b-8725-43a8-be0c-7efdbc8dbece",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0c204a2b-8725-43a8-be0c-7efdbc8dbece",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8febda2b-9173-45e0-978e-babcbef80c3c",
+          "title": "Значение тестирования",
+          "slug": "Znachenie_testirovaniya_8febda2b-9173-45e0-978e-babcbef80c3c",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/8febda2b-9173-45e0-978e-babcbef80c3c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "15c12c0c-1485-4cbd-8987-0865d3e52cdd",
+          "title": "Внедрение тестов",
+          "slug": "Vnedrenie_testov_15c12c0c-1485-4cbd-8987-0865d3e52cdd",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/15c12c0c-1485-4cbd-8987-0865d3e52cdd",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c13df4c1-6fe9-4602-a2a8-c6a5c56a4333",
+          "title": "Туториал по запуску тестов",
+          "slug": "Tutorial_po_zapusku_testov_c13df4c1-6fe9-4602-a2a8-c6a5c56a4333",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/c13df4c1-6fe9-4602-a2a8-c6a5c56a4333",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1c0f1418-8a25-4c6f-b913-7d21a658b94d",
+          "title": "Модульные тесты 2",
+          "slug": "Modul_nye_testy_2_1c0f1418-8a25-4c6f-b913-7d21a658b94d",
+          "maxScore": 6,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/1c0f1418-8a25-4c6f-b913-7d21a658b94d",
+          "questionsCount": 6,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "12bee77d-efaf-47b6-9e52-03038831f79c",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_12bee77d-efaf-47b6-9e52-03038831f79c",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/12bee77d-efaf-47b6-9e52-03038831f79c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7a098f71-f436-436f-92ed-287d7b1bca3c",
+          "title": "Практика «Поля в кавычках»",
+          "slug": "Praktika_Polya_v_kavychkakh__7a098f71-f436-436f-92ed-287d7b1bca3c",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/7a098f71-f436-436f-92ed-287d7b1bca3c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b0d7bc0f-7309-4ff9-b472-2c19a57f25a4",
+          "title": "Практика «Тестирование»",
+          "slug": "Praktika_Testirovanie__b0d7bc0f-7309-4ff9-b472-2c19a57f25a4",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/b0d7bc0f-7309-4ff9-b472-2c19a57f25a4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e5beecc5-2b45-4271-acdc-3ae0af775485",
+          "title": "Практика «Парсер полей»",
+          "slug": "Praktika_Parser_poley__e5beecc5-2b45-4271-acdc-3ae0af775485",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e5beecc5-2b45-4271-acdc-3ae0af775485",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f8619b6a-59a7-4f1c-82ca-dd94f0146898",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_f8619b6a-59a7-4f1c-82ca-dd94f0146898",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/f8619b6a-59a7-4f1c-82ca-dd94f0146898",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "fab42d9c-db92-daec-e883-7d5424eb6c13",
+      "title": "Сложность алгоритмов",
+      "slides": [
+        {
+          "id": "0728da8d-eb4e-4cd6-873e-a41363755f49",
+          "title": "О важности алгоритмов",
+          "slug": "O_vazhnosti_algoritmov_0728da8d-eb4e-4cd6-873e-a41363755f49",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0728da8d-eb4e-4cd6-873e-a41363755f49",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7e1aac61-118d-490b-ab5f-b01bd1926199",
+          "title": "Базовые понятия",
+          "slug": "Bazovye_ponyatiya_7e1aac61-118d-490b-ab5f-b01bd1926199",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/7e1aac61-118d-490b-ab5f-b01bd1926199",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d9236f62-d9de-4a37-a21f-7cfb1e263762",
+          "title": "Базовые понятия",
+          "slug": "Bazovye_ponyatiya_d9236f62-d9de-4a37-a21f-7cfb1e263762",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/d9236f62-d9de-4a37-a21f-7cfb1e263762",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "41b7d5ab-b3be-4c68-a882-0f78b34035bd",
+          "title": "Расчет сложности",
+          "slug": "Raschet_slozhnosti_41b7d5ab-b3be-4c68-a882-0f78b34035bd",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/41b7d5ab-b3be-4c68-a882-0f78b34035bd",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2738b458-b461-4981-bbcf-3dbc4a7120a2",
+          "title": "Масштаб роста функций",
+          "slug": "Masshtab_rosta_funktsiy_2738b458-b461-4981-bbcf-3dbc4a7120a2",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2738b458-b461-4981-bbcf-3dbc4a7120a2",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8c038f1c-4dff-4517-a5ca-aa459e7e258f",
+          "title": "Сложность и скорость",
+          "slug": "Slozhnost_i_skorost__8c038f1c-4dff-4517-a5ca-aa459e7e258f",
+          "maxScore": 2,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/8c038f1c-4dff-4517-a5ca-aa459e7e258f",
+          "questionsCount": 2,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6a74a6e4-bef5-4e35-9d4c-6baf62ccee41",
+          "title": "О-символика",
+          "slug": "O_simvolika_6a74a6e4-bef5-4e35-9d4c-6baf62ccee41",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/6a74a6e4-bef5-4e35-9d4c-6baf62ccee41",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3da272ce-cb50-47ed-a85e-6f513ad2cb07",
+          "title": "O-символика",
+          "slug": "O_simvolika_3da272ce-cb50-47ed-a85e-6f513ad2cb07",
+          "maxScore": 9,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/3da272ce-cb50-47ed-a85e-6f513ad2cb07",
+          "questionsCount": 9,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1b8d1b4d-1da0-4964-ad1b-190242661076",
+          "title": "Оценка сложности",
+          "slug": "Otsenka_slozhnosti_1b8d1b4d-1da0-4964-ad1b-190242661076",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/1b8d1b4d-1da0-4964-ad1b-190242661076",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4a772b80-3372-4ab0-9ae0-19a361699150",
+          "title": "Сложность алгоритмов с числами",
+          "slug": "Slozhnost_algoritmov_s_chislami_4a772b80-3372-4ab0-9ae0-19a361699150",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/4a772b80-3372-4ab0-9ae0-19a361699150",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "20a3d99c-dcdd-43b1-8d80-6d156ef9a432",
+          "title": "Оценка сложности алгоритма",
+          "slug": "Otsenka_slozhnosti_algoritma_20a3d99c-dcdd-43b1-8d80-6d156ef9a432",
+          "maxScore": 3,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/20a3d99c-dcdd-43b1-8d80-6d156ef9a432",
+          "questionsCount": 3,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f33dd5c4-0a6d-41ec-a039-4c2b08e0ffb1",
+          "title": "Классы сложности",
+          "slug": "Klassy_slozhnosti_f33dd5c4-0a6d-41ec-a039-4c2b08e0ffb1",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/f33dd5c4-0a6d-41ec-a039-4c2b08e0ffb1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "bdbb546e-5692-475a-8a96-d170aa666b5e",
+          "title": "O-символика 2",
+          "slug": "O_simvolika_2_bdbb546e-5692-475a-8a96-d170aa666b5e",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/bdbb546e-5692-475a-8a96-d170aa666b5e",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3d69c830-046b-468c-8556-14ed845bb50f",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_3d69c830-046b-468c-8556-14ed845bb50f",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/3d69c830-046b-468c-8556-14ed845bb50f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "43832bca-90f0-4e70-b5d6-4f76658a7ccb",
+          "title": "Практика «Оттенки серого»",
+          "slug": "Praktika_Ottenki_serogo__43832bca-90f0-4e70-b5d6-4f76658a7ccb",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/43832bca-90f0-4e70-b5d6-4f76658a7ccb",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4597a6db-5f8e-4bad-a435-8755a3cb61b5",
+          "title": "Практика «Медианный фильтр»",
+          "slug": "Praktika_Mediannyy_fil_tr__4597a6db-5f8e-4bad-a435-8755a3cb61b5",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/4597a6db-5f8e-4bad-a435-8755a3cb61b5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "541ab769-f2be-4764-8fd8-b1dc34deb6fe",
+          "title": "Практика «Пороговый фильтр»",
+          "slug": "Praktika_Porogovyy_fil_tr__541ab769-f2be-4764-8fd8-b1dc34deb6fe",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/541ab769-f2be-4764-8fd8-b1dc34deb6fe",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d6ccce43-dcb5-4a64-9f65-e55de20582f8",
+          "title": "Практика «Фильтр Собеля»",
+          "slug": "Praktika_Fil_tr_Sobelya__d6ccce43-dcb5-4a64-9f65-e55de20582f8",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/d6ccce43-dcb5-4a64-9f65-e55de20582f8",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "1340de43-6478-4be6-947e-ff4ac8b27a3a",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_1340de43-6478-4be6-947e-ff4ac8b27a3a",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/1340de43-6478-4be6-947e-ff4ac8b27a3a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "40de4f88-54d6-3c23-faee-0f9de37ad824",
+      "title": "Рекурсивные алгоритмы",
+      "slides": [
+        {
+          "id": "caec41b0-3166-40c0-9ded-3941c7f0b91d",
+          "title": "Рекурсия",
+          "slug": "Rekursiya_caec41b0-3166-40c0-9ded-3941c7f0b91d",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/caec41b0-3166-40c0-9ded-3941c7f0b91d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a5ba07a0-3b06-424b-989a-330137c1c05e",
+          "title": "Исправить рекурсию",
+          "slug": "Ispravit_rekursiyu_a5ba07a0-3b06-424b-989a-330137c1c05e",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/a5ba07a0-3b06-424b-989a-330137c1c05e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "670fa739-0f73-450c-b877-eaa6264a34fc",
+          "title": "Дерево рекурсии",
+          "slug": "Derevo_rekursii_670fa739-0f73-450c-b877-eaa6264a34fc",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/670fa739-0f73-450c-b877-eaa6264a34fc",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "ca257385-d589-41e8-a0f9-540c8c3d998a",
+          "title": "Еще примеры",
+          "slug": "Eshche_primery_ca257385-d589-41e8-a0f9-540c8c3d998a",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/ca257385-d589-41e8-a0f9-540c8c3d998a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8cb1d1cf-0ea6-4efe-bb5d-9a3e9ff53d85",
+          "title": "Понимание рекурсии",
+          "slug": "Ponimanie_rekursii_8cb1d1cf-0ea6-4efe-bb5d-9a3e9ff53d85",
+          "maxScore": 7,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/8cb1d1cf-0ea6-4efe-bb5d-9a3e9ff53d85",
+          "questionsCount": 7,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c233ec6f-5803-48e5-a67c-b5824baa7582",
+          "title": "Разделяй и властвуй",
+          "slug": "Razdelyay_i_vlastvuy_c233ec6f-5803-48e5-a67c-b5824baa7582",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/c233ec6f-5803-48e5-a67c-b5824baa7582",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "67cb3e0c-6cf3-49c0-ac8d-4c2b58b262d3",
+          "title": "Подмножества",
+          "slug": "Podmnozhestva_67cb3e0c-6cf3-49c0-ac8d-4c2b58b262d3",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/67cb3e0c-6cf3-49c0-ac8d-4c2b58b262d3",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a859b4b5-ba6f-48c6-a745-19ea5f4a307c",
+          "title": "Перебор паролей",
+          "slug": "Perebor_paroley_a859b4b5-ba6f-48c6-a745-19ea5f4a307c",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/a859b4b5-ba6f-48c6-a745-19ea5f4a307c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e20cfb08-69f4-43d1-8f18-1c7498efaa80",
+          "title": "Перестановки",
+          "slug": "Perestanovki_e20cfb08-69f4-43d1-8f18-1c7498efaa80",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/e20cfb08-69f4-43d1-8f18-1c7498efaa80",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e99b17f9-70bf-488e-9564-a67bff042279",
+          "title": "Брошенный код :(",
+          "slug": "Broshennyy_kod__e99b17f9-70bf-488e-9564-a67bff042279",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e99b17f9-70bf-488e-9564-a67bff042279",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "52a6c385-576a-4da1-b9cb-d74ca5dba296",
+          "title": "Размещения",
+          "slug": "Razmeshcheniya_52a6c385-576a-4da1-b9cb-d74ca5dba296",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/52a6c385-576a-4da1-b9cb-d74ca5dba296",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b24a1dd7-524d-466c-9603-57381ebc33ff",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_b24a1dd7-524d-466c-9603-57381ebc33ff",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/b24a1dd7-524d-466c-9603-57381ebc33ff",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "56c09b9b-5eec-4491-bf86-ae5074fbd28f",
+          "title": "Практика «Перебор паролей 2»",
+          "slug": "Praktika_Perebor_paroley_2__56c09b9b-5eec-4491-bf86-ae5074fbd28f",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/56c09b9b-5eec-4491-bf86-ae5074fbd28f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a0c554bb-1bb2-451e-b192-c88c87ec5147",
+          "title": "Практика «Хождение по чекпоинтам»",
+          "slug": "Praktika_Khozhdenie_po_chekpointam__a0c554bb-1bb2-451e-b192-c88c87ec5147",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/a0c554bb-1bb2-451e-b192-c88c87ec5147",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "67fb1e9f-63f7-4329-b304-e720543ee01f",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_67fb1e9f-63f7-4329-b304-e720543ee01f",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/67fb1e9f-63f7-4329-b304-e720543ee01f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "e4df2f6b-dc5d-3cc1-1467-0edcc93c211a",
+      "title": "Поиск и сортировка",
+      "slides": [
+        {
+          "id": "d48408e2-8baf-4742-8f87-c0c866ee4d38",
+          "title": "Бинарный поиск",
+          "slug": "Binarnyy_poisk_d48408e2-8baf-4742-8f87-c0c866ee4d38",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/d48408e2-8baf-4742-8f87-c0c866ee4d38",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3a384f49-5b95-43f8-9940-ad4b19763c4d",
+          "title": "Анализ линейного поиска",
+          "slug": "Analiz_lineynogo_poiska_3a384f49-5b95-43f8-9940-ad4b19763c4d",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3a384f49-5b95-43f8-9940-ad4b19763c4d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "556f2d27-e4ef-4698-be48-65ba0e075aea",
+          "title": "Анализ алгоритма",
+          "slug": "Analiz_algoritma_556f2d27-e4ef-4698-be48-65ba0e075aea",
+          "maxScore": 2,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/556f2d27-e4ef-4698-be48-65ba0e075aea",
+          "questionsCount": 2,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "fd0b0306-9ea0-4592-bfd6-6b394fea62dc",
+          "title": "Анализ бинпоиска",
+          "slug": "Analiz_binpoiska_fd0b0306-9ea0-4592-bfd6-6b394fea62dc",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/fd0b0306-9ea0-4592-bfd6-6b394fea62dc",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b1244761-2c00-48aa-a079-5927ebccd87c",
+          "title": "Сравнение производительности",
+          "slug": "Sravnenie_proizvoditel_nosti_b1244761-2c00-48aa-a079-5927ebccd87c",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/b1244761-2c00-48aa-a079-5927ebccd87c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4d7960d8-7d65-4ff7-b070-36e8ff618755",
+          "title": "Рекурсивный бинарный поиск",
+          "slug": "Rekursivnyy_binarnyy_poisk_4d7960d8-7d65-4ff7-b070-36e8ff618755",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/4d7960d8-7d65-4ff7-b070-36e8ff618755",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a98505e4-b1aa-4956-8b12-b7d1e95d8072",
+          "title": "Сортировка пузырьком",
+          "slug": "Sortirovka_puzyr_kom_a98505e4-b1aa-4956-8b12-b7d1e95d8072",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/a98505e4-b1aa-4956-8b12-b7d1e95d8072",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6c73521d-810a-429a-95f9-eadb4f0176e7",
+          "title": "Сортировка диапазона",
+          "slug": "Sortirovka_diapazona_6c73521d-810a-429a-95f9-eadb4f0176e7",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/6c73521d-810a-429a-95f9-eadb4f0176e7",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a3acf875-b6b1-4afc-9e6e-e45528e7b025",
+          "title": "Сортировка слиянием",
+          "slug": "Sortirovka_sliyaniem_a3acf875-b6b1-4afc-9e6e-e45528e7b025",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/a3acf875-b6b1-4afc-9e6e-e45528e7b025",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0e86cf2f-a832-431c-a95e-8c7493eefbb5",
+          "title": "Быстрая сортировка",
+          "slug": "Bystraya_sortirovka_0e86cf2f-a832-431c-a95e-8c7493eefbb5",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/0e86cf2f-a832-431c-a95e-8c7493eefbb5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "77057af6-f4db-4b27-908b-020e96c551c1",
+          "title": "Сложность поиска и сортировки",
+          "slug": "Slozhnost_poiska_i_sortirovki_77057af6-f4db-4b27-908b-020e96c551c1",
+          "maxScore": 6,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/77057af6-f4db-4b27-908b-020e96c551c1",
+          "questionsCount": 6,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "d70fbf0e-c4bf-42c1-9723-c3bdfeb66691",
+          "title": "Сравнение алгоритмов сортировки",
+          "slug": "Sravnenie_algoritmov_sortirovki_d70fbf0e-c4bf-42c1-9723-c3bdfeb66691",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/d70fbf0e-c4bf-42c1-9723-c3bdfeb66691",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8ad843d8-0bf9-4a4c-97fe-a6e02a2f842b",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_8ad843d8-0bf9-4a4c-97fe-a6e02a2f842b",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/8ad843d8-0bf9-4a4c-97fe-a6e02a2f842b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2f97664a-375b-4a60-824f-6227008f822a",
+          "title": "Практика «Левая граница»",
+          "slug": "Praktika_Levaya_granitsa__2f97664a-375b-4a60-824f-6227008f822a",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/2f97664a-375b-4a60-824f-6227008f822a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8e57697e-7361-4543-9bb4-1b24733c0986",
+          "title": "Практика «Правая граница»",
+          "slug": "Praktika_Pravaya_granitsa__8e57697e-7361-4543-9bb4-1b24733c0986",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/8e57697e-7361-4543-9bb4-1b24733c0986",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8ad29ee0-cff1-45db-8405-10f203556d1b",
+          "title": "Практика «Автодополнение»",
+          "slug": "Praktika_Avtodopolnenie__8ad29ee0-cff1-45db-8405-10f203556d1b",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/8ad29ee0-cff1-45db-8405-10f203556d1b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "612a47ed-99a0-4f68-88f7-c6a832b19113",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_612a47ed-99a0-4f68-88f7-c6a832b19113",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/612a47ed-99a0-4f68-88f7-c6a832b19113",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "0e56024a-ae74-4efa-d8a7-fea7fab5055b",
+      "title": "Практикум",
+      "slides": [
+        {
+          "id": "f460a5b6-3f82-4c55-9462-ac3fcf2d1888",
+          "title": "Практика «Манипулятор»",
+          "slug": "Praktika_Manipulyator__f460a5b6-3f82-4c55-9462-ac3fcf2d1888",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/f460a5b6-3f82-4c55-9462-ac3fcf2d1888",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4f9ae5a0-2be9-4d2b-aa2c-7f99deaabf7a",
+          "title": "Практика «Визуализация»",
+          "slug": "Praktika_Vizualizatsiya__4f9ae5a0-2be9-4d2b-aa2c-7f99deaabf7a",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/4f9ae5a0-2be9-4d2b-aa2c-7f99deaabf7a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "dd1993d4-6600-4368-bc9f-68055ef1eae4",
+          "title": "Практика «Поиск угла»",
+          "slug": "Praktika_Poisk_ugla__dd1993d4-6600-4368-bc9f-68055ef1eae4",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/dd1993d4-6600-4368-bc9f-68055ef1eae4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2088e9aa-8fdd-4df3-b190-d57bb2390dfd",
+          "title": "Практика «Решение манипулятора»",
+          "slug": "Praktika_Reshenie_manipulyatora__2088e9aa-8fdd-4df3-b190-d57bb2390dfd",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/2088e9aa-8fdd-4df3-b190-d57bb2390dfd",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "cc6d6f2b-e271-48da-8207-22d6f0db5e52",
+          "title": "Коллоквиум",
+          "slug": "Kollokvium_cc6d6f2b-e271-48da-8207-22d6f0db5e52",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/cc6d6f2b-e271-48da-8207-22d6f0db5e52",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "b8ff29db-7416-c2f6-aa37-7e58a96ed597",
+      "title": "Основы ООП",
+      "slides": [
+        {
+          "id": "9eb68528-17cb-4d7f-99f3-40210a8f6cef",
+          "title": "Классы",
+          "slug": "Klassy_9eb68528-17cb-4d7f-99f3-40210a8f6cef",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/9eb68528-17cb-4d7f-99f3-40210a8f6cef",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b0529ff4-52d1-4462-865b-89920b240f57",
+          "title": "Создание классов",
+          "slug": "Sozdanie_klassov_b0529ff4-52d1-4462-865b-89920b240f57",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/b0529ff4-52d1-4462-865b-89920b240f57",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "aecdc34e-c852-4f8b-9bce-81a093b5b1ee",
+          "title": "Сокращенный синтаксис",
+          "slug": "Sokrashchennyy_sintaksis_aecdc34e-c852-4f8b-9bce-81a093b5b1ee",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/aecdc34e-c852-4f8b-9bce-81a093b5b1ee",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9ab27cb1-cd14-4248-89d5-5981490bb766",
+          "title": "Статическое и динамическое",
+          "slug": "Staticheskoe_i_dinamicheskoe_9ab27cb1-cd14-4248-89d5-5981490bb766",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/9ab27cb1-cd14-4248-89d5-5981490bb766",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "621a9d46-0d48-41ba-aa4e-ccb6c5e0ab15",
+          "title": "Поля классов",
+          "slug": "Polya_klassov_621a9d46-0d48-41ba-aa4e-ccb6c5e0ab15",
+          "maxScore": 2,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/621a9d46-0d48-41ba-aa4e-ccb6c5e0ab15",
+          "questionsCount": 2,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2d1586c6-b4b3-4228-8c04-c99c54f42eeb",
+          "title": "Методы",
+          "slug": "Metody_2d1586c6-b4b3-4228-8c04-c99c54f42eeb",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2d1586c6-b4b3-4228-8c04-c99c54f42eeb",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e038a6b5-9b77-471c-a8f1-32a8419ebbd2",
+          "title": "Методы классов",
+          "slug": "Metody_klassov_e038a6b5-9b77-471c-a8f1-32a8419ebbd2",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/e038a6b5-9b77-471c-a8f1-32a8419ebbd2",
+          "questionsCount": 5,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c50922d3-d897-4209-ba38-332e112e3614",
+          "title": "Карты памяти",
+          "slug": "Karty_pamyati_c50922d3-d897-4209-ba38-332e112e3614",
+          "maxScore": 6,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/c50922d3-d897-4209-ba38-332e112e3614",
+          "questionsCount": 6,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "01a1f9a5-c475-4af3-bef3-060f92e69a92",
+          "title": "Методы расширения",
+          "slug": "Metody_rasshireniya_01a1f9a5-c475-4af3-bef3-060f92e69a92",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/01a1f9a5-c475-4af3-bef3-060f92e69a92",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "06aa4e3e-c1f8-4895-ba1f-b7d5df22bb28",
+          "title": "Создание методов расширения",
+          "slug": "Sozdanie_metodov_rasshireniya_06aa4e3e-c1f8-4895-ba1f-b7d5df22bb28",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/06aa4e3e-c1f8-4895-ba1f-b7d5df22bb28",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "57b32e15-beed-4e75-9aee-dabc6af80bd7",
+          "title": "DirectoryInfo, FileInfo",
+          "slug": "DirectoryInfo_FileInfo_57b32e15-beed-4e75-9aee-dabc6af80bd7",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/57b32e15-beed-4e75-9aee-dabc6af80bd7",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "24e64255-d0e2-418f-a86f-122d67117355",
+          "title": "Список директорий",
+          "slug": "Spisok_direktoriy_24e64255-d0e2-418f-a86f-122d67117355",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/24e64255-d0e2-418f-a86f-122d67117355",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "8adb5248-0361-4ca6-b2f9-851ead987603",
+          "title": "Статические классы",
+          "slug": "Staticheskie_klassy_8adb5248-0361-4ca6-b2f9-851ead987603",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/8adb5248-0361-4ca6-b2f9-851ead987603",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "a32d7a49-335a-4394-852d-10692e241efb",
+          "title": "Рефакторинг статического класса",
+          "slug": "Refaktoring_staticheskogo_klassa_a32d7a49-335a-4394-852d-10692e241efb",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/a32d7a49-335a-4394-852d-10692e241efb",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "17d78630-c5fa-4c0d-aaad-1cf4edd7e1b0",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_17d78630-c5fa-4c0d-aaad-1cf4edd7e1b0",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/17d78630-c5fa-4c0d-aaad-1cf4edd7e1b0",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e6b85bbf-1dbf-4099-84db-906579169b8d",
+          "title": "Практика «Вектор»",
+          "slug": "Praktika_Vektor__e6b85bbf-1dbf-4099-84db-906579169b8d",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e6b85bbf-1dbf-4099-84db-906579169b8d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "789a03b8-d2a6-4860-a340-251cc2413a2a",
+          "title": "Практика «Отрезок»",
+          "slug": "Praktika_Otrezok__789a03b8-d2a6-4860-a340-251cc2413a2a",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/789a03b8-d2a6-4860-a340-251cc2413a2a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c36456fd-e660-49a2-bac8-5c610a77210b",
+          "title": "Практика «Нестатические методы»",
+          "slug": "Praktika_Nestaticheskie_metody__c36456fd-e660-49a2-bac8-5c610a77210b",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/c36456fd-e660-49a2-bac8-5c610a77210b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f2cd2b9b-cbbe-4b61-92e7-290bc1a602ab",
+          "title": "Практика «256 оттенков серого»",
+          "slug": "Praktika_256_ottenkov_serogo__f2cd2b9b-cbbe-4b61-92e7-290bc1a602ab",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/f2cd2b9b-cbbe-4b61-92e7-290bc1a602ab",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2735a675-dcd0-4b44-a13d-788443b1aa98",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_2735a675-dcd0-4b44-a13d-788443b1aa98",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2735a675-dcd0-4b44-a13d-788443b1aa98",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "8fe5a2fc-fe15-a2a6-87b8-74f4f36af51d",
+      "title": "Наследование",
+      "slides": [
+        {
+          "id": "a969ed1f-fc3e-4dcc-8d05-6015069e3dcf",
+          "title": "Постановка проблемы",
+          "slug": "Postanovka_problemy_a969ed1f-fc3e-4dcc-8d05-6015069e3dcf",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/a969ed1f-fc3e-4dcc-8d05-6015069e3dcf",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "ac2b8cb6-8d63-4b81-9083-eaa77ab0c89c",
+          "title": "Наследование",
+          "slug": "Nasledovanie_ac2b8cb6-8d63-4b81-9083-eaa77ab0c89c",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/ac2b8cb6-8d63-4b81-9083-eaa77ab0c89c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3d1a92ab-5d89-4023-9175-f7ceeb69f2a6",
+          "title": "Наследование",
+          "slug": "Nasledovanie_3d1a92ab-5d89-4023-9175-f7ceeb69f2a6",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/3d1a92ab-5d89-4023-9175-f7ceeb69f2a6",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "382867ff-a6a2-45df-a53f-e3757ef74c64",
+          "title": "Иерархия наследования",
+          "slug": "Ierarkhiya_nasledovaniya_382867ff-a6a2-45df-a53f-e3757ef74c64",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/382867ff-a6a2-45df-a53f-e3757ef74c64",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0ae81631-0a72-4fa1-8224-6dd88a79b3ca",
+          "title": "Касты",
+          "slug": "Kasty_0ae81631-0a72-4fa1-8224-6dd88a79b3ca",
+          "maxScore": 7,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/0ae81631-0a72-4fa1-8224-6dd88a79b3ca",
+          "questionsCount": 7,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4019ac61-37ae-435e-bd37-a90e8b3009a3",
+          "title": "Класс Array",
+          "slug": "Klass_Array_4019ac61-37ae-435e-bd37-a90e8b3009a3",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/4019ac61-37ae-435e-bd37-a90e8b3009a3",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "039b257e-d0f4-4bdd-99a2-66ade6485165",
+          "title": "Всем печать!",
+          "slug": "Vsem_pechat__039b257e-d0f4-4bdd-99a2-66ade6485165",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/039b257e-d0f4-4bdd-99a2-66ade6485165",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3a0b67fc-73c1-498a-b015-7ccc06b7ffc9",
+          "title": "Склейка массивов",
+          "slug": "Skleyka_massivov_3a0b67fc-73c1-498a-b015-7ccc06b7ffc9",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/3a0b67fc-73c1-498a-b015-7ccc06b7ffc9",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3df89dfb-7f0f-4123-82ac-364c3a426396",
+          "title": "Интерфейсы",
+          "slug": "Interfeysy_3df89dfb-7f0f-4123-82ac-364c3a426396",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3df89dfb-7f0f-4123-82ac-364c3a426396",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3dff4d01-45d2-4f80-889d-75ed651b31c2",
+          "title": "Снова среднее трех",
+          "slug": "Snova_srednee_trekh_3dff4d01-45d2-4f80-889d-75ed651b31c2",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/3dff4d01-45d2-4f80-889d-75ed651b31c2",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9e6c6fe1-9282-4abc-853c-5ce6fb5bfa76",
+          "title": "Поиск минимума",
+          "slug": "Poisk_minimuma_9e6c6fe1-9282-4abc-853c-5ce6fb5bfa76",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/9e6c6fe1-9282-4abc-853c-5ce6fb5bfa76",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3fc355a6-1e3a-4202-9343-9825ccd9b691",
+          "title": "Реализация IComparable",
+          "slug": "Realizatsiya_IComparable_3fc355a6-1e3a-4202-9343-9825ccd9b691",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3fc355a6-1e3a-4202-9343-9825ccd9b691",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "bd1f8054-a372-4ea4-9f5a-2eee97cd2b71",
+          "title": "Сравнение книг",
+          "slug": "Sravnenie_knig_bd1f8054-a372-4ea4-9f5a-2eee97cd2b71",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/bd1f8054-a372-4ea4-9f5a-2eee97cd2b71",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "432a64a7-80c7-4c4a-a3c3-85c054797b4a",
+          "title": "Интерфейс IComparer",
+          "slug": "Interfeys_IComparer_432a64a7-80c7-4c4a-a3c3-85c054797b4a",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/432a64a7-80c7-4c4a-a3c3-85c054797b4a",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e147bff3-7bc6-454b-a6e4-bfe9e9de6d41",
+          "title": "Против часовой стрелки",
+          "slug": "Protiv_chasovoy_strelki_e147bff3-7bc6-454b-a6e4-bfe9e9de6d41",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/e147bff3-7bc6-454b-a6e4-bfe9e9de6d41",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "378b3a30-d080-4d49-bf2f-725c425af146",
+          "title": "Полиморфизм",
+          "slug": "Polimorfizm_378b3a30-d080-4d49-bf2f-725c425af146",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/378b3a30-d080-4d49-bf2f-725c425af146",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4c2cab0b-93dd-48ce-88ac-5115d9655642",
+          "title": "Виртуальные методы",
+          "slug": "Virtual_nye_metody_4c2cab0b-93dd-48ce-88ac-5115d9655642",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/4c2cab0b-93dd-48ce-88ac-5115d9655642",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "910105f8-f895-4608-9134-8b8d42d68e41",
+          "title": "Метод ToString",
+          "slug": "Metod_ToString_910105f8-f895-4608-9134-8b8d42d68e41",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/910105f8-f895-4608-9134-8b8d42d68e41",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "4bbee343-194e-4bb8-bf9a-f072f401e81f",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_4bbee343-194e-4bb8-bf9a-f072f401e81f",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/4bbee343-194e-4bb8-bf9a-f072f401e81f",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "b4fba55d-b35d-4366-b3e3-e1d7f53268b1",
+          "title": "Практика «Земля и Диггер»",
+          "slug": "Praktika_Zemlya_i_Digger__b4fba55d-b35d-4366-b3e3-e1d7f53268b1",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/b4fba55d-b35d-4366-b3e3-e1d7f53268b1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "27e64369-9fb5-4d39-8db1-248b6257293e",
+          "title": "Практика «Мешки и Золото»",
+          "slug": "Praktika_Meshki_i_Zoloto__27e64369-9fb5-4d39-8db1-248b6257293e",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/27e64369-9fb5-4d39-8db1-248b6257293e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "92931100-7a4c-48ce-bb88-bc7820fc703c",
+          "title": "Практика «Монстры»",
+          "slug": "Praktika_Monstry__92931100-7a4c-48ce-bb88-bc7820fc703c",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/92931100-7a4c-48ce-bb88-bc7820fc703c",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "136aea92-b88a-427c-852e-c581da488014",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_136aea92-b88a-427c-852e-c581da488014",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/136aea92-b88a-427c-852e-c581da488014",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "1557d92c-68e6-63d0-69ee-414354353685",
+      "title": "Целостность данных",
+      "slides": [
+        {
+          "id": "f177f3c4-c0f8-4759-9d41-2cdb7f22ca15",
+          "title": "Целостность данных",
+          "slug": "Tselostnost_dannykh_f177f3c4-c0f8-4759-9d41-2cdb7f22ca15",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/f177f3c4-c0f8-4759-9d41-2cdb7f22ca15",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "f9e6780f-8b16-4c85-ac9d-2d205cc55e33",
+          "title": "Ключевое слово private",
+          "slug": "Klyuchevoe_slovo_private_f9e6780f-8b16-4c85-ac9d-2d205cc55e33",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/f9e6780f-8b16-4c85-ac9d-2d205cc55e33",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6c811fb1-289e-49b6-b5f9-14698f2c25ca",
+          "title": "Использование private",
+          "slug": "Ispol_zovanie_private_6c811fb1-289e-49b6-b5f9-14698f2c25ca",
+          "maxScore": 1,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/6c811fb1-289e-49b6-b5f9-14698f2c25ca",
+          "questionsCount": 1,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3bf0e956-3258-4a4d-ac42-926dc8cbad3b",
+          "title": "Отложенные ошибки",
+          "slug": "Otlozhennye_oshibki_3bf0e956-3258-4a4d-ac42-926dc8cbad3b",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3bf0e956-3258-4a4d-ac42-926dc8cbad3b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7894c024-7ed1-4e9c-87f7-5c3a3f6a4b17",
+          "title": "Свойства",
+          "slug": "Svoystva_7894c024-7ed1-4e9c-87f7-5c3a3f6a4b17",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/7894c024-7ed1-4e9c-87f7-5c3a3f6a4b17",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "9eb0e353-bb50-4ae0-9064-e8bb86dd33de",
+          "title": "Не откладывать ошибки",
+          "slug": "Ne_otkladyvat_oshibki_9eb0e353-bb50-4ae0-9064-e8bb86dd33de",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/9eb0e353-bb50-4ae0-9064-e8bb86dd33de",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "153f180e-1a1a-460a-b2e7-abfe72707a64",
+          "title": "Больше свойств",
+          "slug": "Bol_she_svoystv_153f180e-1a1a-460a-b2e7-abfe72707a64",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/153f180e-1a1a-460a-b2e7-abfe72707a64",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3adad7ba-a462-49d5-8677-7d1f8c85af33",
+          "title": "Свойство вместо поля",
+          "slug": "Svoystvo_vmesto_polya_3adad7ba-a462-49d5-8677-7d1f8c85af33",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/3adad7ba-a462-49d5-8677-7d1f8c85af33",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "87ee724d-8b7d-4d9e-b4f7-ea29c0f055ff",
+          "title": "Конструкторы",
+          "slug": "Konstruktory_87ee724d-8b7d-4d9e-b4f7-ea29c0f055ff",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/87ee724d-8b7d-4d9e-b4f7-ea29c0f055ff",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "6011b77e-b481-445d-9823-93e6a57fd757",
+          "title": "Вектор",
+          "slug": "Vektor_6011b77e-b481-445d-9823-93e6a57fd757",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/6011b77e-b481-445d-9823-93e6a57fd757",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3f87c4cb-495d-4e12-8b61-d7134e5351da",
+          "title": "Поля readonly",
+          "slug": "Polya_readonly_3f87c4cb-495d-4e12-8b61-d7134e5351da",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3f87c4cb-495d-4e12-8b61-d7134e5351da",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "deeef0d7-5d5c-481a-9a07-480641705efe",
+          "title": "Дробь",
+          "slug": "Drob__deeef0d7-5d5c-481a-9a07-480641705efe",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/deeef0d7-5d5c-481a-9a07-480641705efe",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c85476a1-0886-488f-97e1-66227119ad4e",
+          "title": "Статические конструкторы",
+          "slug": "Staticheskie_konstruktory_c85476a1-0886-488f-97e1-66227119ad4e",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/c85476a1-0886-488f-97e1-66227119ad4e",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "149390cf-a8c6-4c47-b374-9004561704e5",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_149390cf-a8c6-4c47-b374-9004561704e5",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/149390cf-a8c6-4c47-b374-9004561704e5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "74ecaabe-c692-487e-8ff7-b1c38ae497b2",
+          "title": "Практика «Readonly Vector»",
+          "slug": "Praktika_Readonly_Vector__74ecaabe-c692-487e-8ff7-b1c38ae497b2",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/74ecaabe-c692-487e-8ff7-b1c38ae497b2",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "40d232f1-c280-44cd-83f7-7ec526407d62",
+          "title": "Практика «Счет из отеля»",
+          "slug": "Praktika_Schet_iz_otelya__40d232f1-c280-44cd-83f7-7ec526407d62",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/40d232f1-c280-44cd-83f7-7ec526407d62",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "5caa9930-a3af-4ba0-9a8e-761bb7cb0ec5",
+          "title": "Практика «Карманный гугл»",
+          "slug": "Praktika_Karmannyy_gugl__5caa9930-a3af-4ba0-9a8e-761bb7cb0ec5",
+          "maxScore": 50,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/5caa9930-a3af-4ba0-9a8e-761bb7cb0ec5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "e291b010-42ec-4056-9041-eb99da922448",
+          "title": "Задачи на семинар",
+          "slug": "Zadachi_na_seminar_e291b010-42ec-4056-9041-eb99da922448",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/e291b010-42ec-4056-9041-eb99da922448",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    },
+    {
+      "id": "97940709-9f6d-03f4-2090-63bd08befcf1",
+      "title": "Структуры",
+      "slides": [
+        {
+          "id": "2f0b0caa-ce22-4068-93bb-e5c1a0f8a2a4",
+          "title": "Объявление структуры",
+          "slug": "Ob_yavlenie_struktury_2f0b0caa-ce22-4068-93bb-e5c1a0f8a2a4",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2f0b0caa-ce22-4068-93bb-e5c1a0f8a2a4",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3d0c5ed0-7260-41d0-b78a-450a036aa9f9",
+          "title": "Инициализация полей структуры",
+          "slug": "Initsializatsiya_poley_struktury_3d0c5ed0-7260-41d0-b78a-450a036aa9f9",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/3d0c5ed0-7260-41d0-b78a-450a036aa9f9",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "0b1faf5b-7082-4a99-8556-f5b4c00bd910",
+          "title": "Структура или класс?",
+          "slug": "Struktura_ili_klass__0b1faf5b-7082-4a99-8556-f5b4c00bd910",
+          "maxScore": 4,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/0b1faf5b-7082-4a99-8556-f5b4c00bd910",
+          "questionsCount": 4,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "2b2a5d5e-7325-4ae6-bb97-2d5f497e9b9b",
+          "title": "Передача структуры в метод",
+          "slug": "Peredacha_struktury_v_metod_2b2a5d5e-7325-4ae6-bb97-2d5f497e9b9b",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/2b2a5d5e-7325-4ae6-bb97-2d5f497e9b9b",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c1a1a9ab-499c-4c86-a322-fb44ab886be5",
+          "title": "Ключевое слово ref",
+          "slug": "Klyuchevoe_slovo_ref_c1a1a9ab-499c-4c86-a322-fb44ab886be5",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/c1a1a9ab-499c-4c86-a322-fb44ab886be5",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "c8f0efa9-7e37-4203-accb-9782485a2b52",
+          "title": "Карты памяти",
+          "slug": "Karty_pamyati_c8f0efa9-7e37-4203-accb-9782485a2b52",
+          "maxScore": 7,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/c8f0efa9-7e37-4203-accb-9782485a2b52",
+          "questionsCount": 7,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3645ccf5-fa0a-4daf-ad53-56a58c8827b1",
+          "title": "Применение ref",
+          "slug": "Primenenie_ref_3645ccf5-fa0a-4daf-ad53-56a58c8827b1",
+          "maxScore": 5,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/3645ccf5-fa0a-4daf-ad53-56a58c8827b1",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "fe30b329-13dc-4c9d-8312-80d1b87a0b61",
+          "title": "Boxing / unboxing",
+          "slug": "Boxing_unboxing_fe30b329-13dc-4c9d-8312-80d1b87a0b61",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/fe30b329-13dc-4c9d-8312-80d1b87a0b61",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "bd70b0f2-d182-4a66-a44e-7467bb65ec8e",
+          "title": "Последствия boxing",
+          "slug": "Posledstviya_boxing_bd70b0f2-d182-4a66-a44e-7467bb65ec8e",
+          "maxScore": 2,
+          "scoringGroup": "exercise",
+          "requiresReview": false,
+          "type": "quiz",
+          "apiUrl": "/slides/BasicProgramming/bd70b0f2-d182-4a66-a44e-7467bb65ec8e",
+          "questionsCount": 2,
+          "quizMaxTriesCount": 2,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "7c130420-2991-40b3-8d80-365e86964418",
+          "title": "Структуры и свойства",
+          "slug": "Struktury_i_svoystva_7c130420-2991-40b3-8d80-365e86964418",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/7c130420-2991-40b3-8d80-365e86964418",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "03e03587-52ff-4e7b-9d42-62df93b4b972",
+          "title": "Зачем нужны структуры",
+          "slug": "Zachem_nuzhny_struktury_03e03587-52ff-4e7b-9d42-62df93b4b972",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/03e03587-52ff-4e7b-9d42-62df93b4b972",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": true,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "47be3bfd-6df5-49ff-91d5-abfb78d85cbf",
+          "title": "Вопросы для самопроверки",
+          "slug": "Voprosy_dlya_samoproverki_47be3bfd-6df5-49ff-91d5-abfb78d85cbf",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "flashcards",
+          "apiUrl": "/slides/BasicProgramming/47be3bfd-6df5-49ff-91d5-abfb78d85cbf",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "3d21ac01-6d3f-4c2a-9a62-d358c55c1e29",
+          "title": "Практика «Benchmark»",
+          "slug": "Praktika_Benchmark__3d21ac01-6d3f-4c2a-9a62-d358c55c1e29",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/3d21ac01-6d3f-4c2a-9a62-d358c55c1e29",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "5f9c0bd2-821e-48e6-9fbe-380351384f1d",
+          "title": "Практика «Эксперименты»",
+          "slug": "Praktika_Eksperimenty__5f9c0bd2-821e-48e6-9fbe-380351384f1d",
+          "maxScore": 100,
+          "scoringGroup": "homework",
+          "requiresReview": true,
+          "type": "exercise",
+          "apiUrl": "/slides/BasicProgramming/5f9c0bd2-821e-48e6-9fbe-380351384f1d",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        },
+        {
+          "id": "33991882-2077-425c-9cf9-63616990a287",
+          "title": "Что дальше?",
+          "slug": "Chto_dal_she__33991882-2077-425c-9cf9-63616990a287",
+          "maxScore": 0,
+          "scoringGroup": "",
+          "requiresReview": false,
+          "type": "lesson",
+          "apiUrl": "/slides/BasicProgramming/33991882-2077-425c-9cf9-63616990a287",
+          "questionsCount": 0,
+          "quizMaxTriesCount": 0,
+          "containsVideo": false,
+          "additionalContentInfo": {
+            "isAdditionalContent": false,
+            "publicationDate": null
+          }
+        }
+      ],
+      "additionalScores": [
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "activity",
+          "name": "Активность на практике",
+          "abbreviation": "Акт",
+          "description": "Дополнительные активности студентов на компьютерных практиках",
+          "weight": 1
+        },
+        {
+          "canInstructorSetAdditionalScore": true,
+          "maxAdditionalScore": 2,
+          "id": "seminar",
+          "name": "Семинары",
+          "abbreviation": "Сем",
+          "description": "Активность студентов на семинарских занятиях.",
+          "weight": 1
+        }
+      ],
+      "additionalContentInfo": {
+        "isAdditionalContent": false,
+        "publicationDate": null
+      }
+    }
+  ],
+  "nextUnitPublishTime": null,
+  "scoring": {
+    "groups": [
+      {
+        "id": "activity",
+        "name": "Активность на практике",
+        "abbr": "Акт",
+        "description": "Дополнительные активности студентов на компьютерных практиках",
+        "weight": 1
+      },
+      {
+        "id": "exercise",
+        "name": "Упражнения",
+        "abbr": "Упр",
+        "description": null,
+        "weight": 1
+      },
+      {
+        "id": "homework",
+        "name": "Домашние задачи",
+        "abbr": "ДЗ",
+        "description": "Задачи, которые студенты выполняют дома, проходят ревью онлайн и сдают доработки на компьютерных практиках",
+        "weight": 1
+      },
+      {
+        "id": "seminar",
+        "name": "Семинары",
+        "abbr": "Сем",
+        "description": "Активность студентов на семинарских занятиях.",
+        "weight": 1
+      }
+    ]
+  },
+  "containsFlashcards": true,
+  "isTempCourse": false,
+  "tempCourseError": null
+}

@@ -1,3 +1,4 @@
+import classes.*;
 import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
@@ -10,6 +11,7 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class CsvParser {
     private String fileName;
@@ -30,72 +32,94 @@ public class CsvParser {
     public ArrayList<Student> parseStudents() throws IOException, CsvValidationException {
         var students = new ArrayList<Student>();
         var reader = getReader(3);
-        var headers = getHeaders();
-        var fullNameIndex = ArrayUtils.indexOf(headers, "Фамилия Имя");
-        var ulearnIdIndex = ArrayUtils.indexOf(headers, "Ulearn id");
-        var emailIndex = ArrayUtils.indexOf(headers, "Эл. почта");
-        var groupIndex = ArrayUtils.indexOf(headers, "Группа");
+        var fullNameIndex = getFullnameColumn();
+        var ulearnIdIndex = getUidColumn();
+        var emailIndex = getEmailColumn();
+        var groupIndex = getGroupColumn();
 
-        String[] row = null;
+        String[] row;
         while ((row = reader.readNext()) != null) {
-            var name = row[fullNameIndex];
+            var name = new ArrayList<>(List.of(row[fullNameIndex].split(" +")));
+            if (name.size() < 2)
+                continue;
+            var firstname = name.get(0);
+            name.remove(0);
+            var lastname = String.join(" ", name);
             var id = row[ulearnIdIndex];
             var email = row[emailIndex];
             var group = row[groupIndex];
-            students.add(new Student(name, id, email, group));
+            students.add(new Student(firstname, lastname, id, email, group));
         }
         return students;
     }
 
-    public ArrayList<String> parseThemes() throws IOException, CsvValidationException {
-        var row = getReader().readNext();
-        var result = new ArrayList<String>();
-        for (var s : row) {
-            if (!s.isEmpty() &&
-                    !s.equals("За весь курс") &&
-                    !s.equals("Преподавателю о курсе"))
-                result.add(s);
+    public HashMap<String, HashMap<Exercise, Integer>> parseUsersExercisesScores(
+            ArrayList<Exercise> exercises
+    ) throws CsvValidationException, IOException {
+        var colIndexes = getCourseElementsColumns(exercises, "Упр: ");
+        return getUidScores(colIndexes);
+    }
+
+    public HashMap<String, HashMap<Practice, Integer>> parseUsersPracticesScores(
+            ArrayList<Practice> practices
+    ) throws CsvValidationException, IOException {
+        var colIndexes = getCourseElementsColumns(practices, "ДЗ: ");
+        return getUidScores(colIndexes);
+    }
+
+    private <T extends CourseElement>
+    HashMap<T, Integer> getCourseElementsColumns(
+            ArrayList<T> elements,
+            String headerPrefix
+    ) throws CsvValidationException, IOException {
+        var headerRow = getHeaders();
+        var indexes = new HashMap<T, Integer>();
+        for (var e: elements) {
+            indexes.put(e, ArrayUtils.indexOf(headerRow, headerPrefix + e.getTitle()));
+        }
+        return indexes;
+    }
+
+    private <T extends CourseElement>
+    HashMap<String, HashMap<T, Integer>> getUidScores(
+            HashMap<T, Integer> elemsIndexes
+    ) throws IOException, CsvValidationException {
+        var reader = getReader(3);
+        var uidIndex = getUidColumn();
+        var result = new HashMap<String, HashMap<T, Integer>>();
+        String[] row;
+        while ((row = reader.readNext()) != null) {
+            var uid = row[uidIndex];
+            var scores = new HashMap<T, Integer>();
+            for (var elem: elemsIndexes.keySet()) {
+                var column = elemsIndexes.get(elem);
+                scores.put(elem, Integer.valueOf(row[column]));
+            }
+            result.put(uid, scores);
         }
         return result;
-    }
-
-    public ArrayList<String> parseExercises() throws IOException, CsvValidationException {
-        var row = getReader(1).readNext();
-        var excercises = new ArrayList<String>();
-        for (var s: row) {
-            if (s.startsWith("Упр: ")) {
-                excercises.add(s.substring(5));
-            }
-        }
-        return excercises;
-    }
-
-    public ArrayList<String> parsePractices() throws IOException, CsvValidationException {
-        var row = getReader(1).readNext();
-        var practices = new ArrayList<String>();
-        for (var s: row) {
-            if (s.startsWith("ДЗ: ")) {
-                practices.add(s.substring(4));
-            }
-        }
-        return practices;
-
-    }
-
-    public HashMap<String, HashMap<String, Integer>> parseExercisesScores() throws CsvValidationException, IOException {
-        var colIndexes = getIndexes(parseExercises(), getReader(1).readNext(), "Упр: ");
-        return getUidScores(colIndexes);
-    }
-
-    public HashMap<String, HashMap<String, Integer>> parsePracticesScores() throws CsvValidationException, IOException {
-        var colIndexes = getIndexes(parsePractices(), getReader(1).readNext(), "ДЗ: ");
-        return getUidScores(colIndexes);
     }
 
     private String[] getHeaders() throws IOException, CsvValidationException {
         String[] row = null;
         var reader = getReader(1);
         return reader.readNext();
+    }
+
+    private int getUidColumn() throws CsvValidationException, IOException {
+        return ArrayUtils.indexOf(getHeaders(),"Ulearn id");
+    }
+
+    private int getFullnameColumn() throws CsvValidationException, IOException {
+        return ArrayUtils.indexOf(getHeaders(),"Фамилия Имя");
+    }
+
+    private int getGroupColumn() throws CsvValidationException, IOException {
+        return ArrayUtils.indexOf(getHeaders(),"Группа");
+    }
+
+    private int getEmailColumn() throws CsvValidationException, IOException {
+        return ArrayUtils.indexOf(getHeaders(),"Эл. почта");
     }
 
     private CSVReader getReader() throws IOException {
@@ -108,32 +132,5 @@ public class CsvParser {
         var parser = new CSVParserBuilder().withSeparator(';').build();
         var fileReader = new FileReader(fileName, Charset.forName("windows-1251"));
         return new CSVReaderBuilder(fileReader).withCSVParser(parser).withSkipLines(skip).build();
-    }
-
-    private HashMap<String, Integer> getIndexes(ArrayList<String> values, String[] array, String headerPrefix) {
-        var indexes = new HashMap<String, Integer>();
-        for (var e: values) {
-            indexes.put(e, ArrayUtils.indexOf(array, headerPrefix + e));
-        }
-        return indexes;
-    }
-
-    private HashMap<String, HashMap<String, Integer>> getUidScores(HashMap<String, Integer> colIndexes) throws IOException, CsvValidationException {
-        var result = new HashMap<String, HashMap<String, Integer>>();
-        var reader = getReader(1);
-        var headerRow = reader.readNext();
-        reader.readNext();
-        for (var key: colIndexes.keySet()) {
-            result.put(key, new HashMap<String, Integer>());
-        }
-        var uidIndex = ArrayUtils.indexOf(headerRow, "Ulearn id");
-        String[] row;
-        while ((row = reader.readNext()) != null) {
-            for (var header: colIndexes.keySet()) {
-                var index = colIndexes.get(header);
-                result.get(header).put(row[uidIndex], Integer.valueOf(row[index]));
-            }
-        }
-        return result;
     }
 }

@@ -1,8 +1,13 @@
+import classes.Course;
+import classes.Exercise;
+import classes.Practice;
+import classes.Theme;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -11,7 +16,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 
 public class UlearnApiParser {
     private final String token;
@@ -24,139 +28,82 @@ public class UlearnApiParser {
         json = getResponseJSON();
     }
 
-    /**
-     * Метод возвращает словарь из тем и списка их практик
-     * @return HashMap(themeID, ArrayList(practiceID))
-     */
-    public HashMap<String, ArrayList<String>> getThemesPracticesIDs() throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var ids = getIdThemes();
-        var result = new HashMap<String, ArrayList<String>>();
-        for (var id: ids.keySet()) {
-            result.put(id, getThemePracticesID(id));
-        }
-        return result;
+    public Course getCourse() throws URISyntaxException, IOException, ParseException, InterruptedException {
+        var title = (String) getResponseJSON().get("title");
+        var id = (String) getResponseJSON().get("id");
+        var themes = getAllThemes();
+        return new Course(themes, title, id);
     }
 
-    /**
-     * Метод возвращает словарь из тем и списка их упражнений
-     * @return HashMap(themeID, ArrayList(exerciseID))
-     */
-    public HashMap<String, ArrayList<String>> getThemesExercisesIDs() throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var ids = getIdThemes();
-        var result = new HashMap<String, ArrayList<String>>();
-        for (var id: ids.keySet()) {
-            result.put(id, getThemeExercisesID(id));
-        }
-        return result;
-    }
-
-    /**
-     * @return ArrayList(exerciseID)
-     */
-    public ArrayList<String> getThemeExercisesID(String themeID) throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var unit = getThemeUnit(themeID);
-        var slides = getUnitExercisesSlides(unit);
-        var exercises = new ArrayList<String>();
-        for (var slideObj: slides) {
+    public ArrayList<Practice> getAllPractices() throws URISyntaxException, IOException, ParseException, InterruptedException {
+        var practicesSlides = getAllPracticesSlides();
+        var practices = new ArrayList<Practice>();
+        for (var slideObj: practicesSlides) {
             var slide = (JSONObject) slideObj;
-            exercises.add((String) slide.get("id"));
-        }
-        return exercises;
-    }
-
-    /**
-     * @return ArrayList(practiceId)
-     */
-    public ArrayList<String> getThemePracticesID(String themeID) throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var unit = getThemeUnit(themeID);
-        var slides = getUnitPracticesSlides(unit);
-        var practices = new ArrayList<String>();
-        for (var slideObj: slides) {
-            var slide = (JSONObject) slideObj;
-            practices.add((String) slide.get("id"));
+            practices.add(new Practice((String) slide.get("title"), (String) slide.get("id")));
         }
         return practices;
     }
 
-    /**
-     * Метод возвращает словарь id темы - название
-     * @return HashMap(themeID, themeTitle)
-     */
-    public HashMap<String, String> getIdThemes() throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var themes = new HashMap<String, String>();
+    public ArrayList<Exercise> getAllExercises() throws URISyntaxException, IOException, ParseException, InterruptedException {
+        var exercisesSlides = getAllExerciseSlides();
+        var exercises = new ArrayList<Exercise>();
+        for (var slideObj: exercisesSlides) {
+            var slide = (JSONObject) slideObj;
+            exercises.add(new Exercise((String) slide.get("title"), (String) slide.get("id")));
+        }
+        return exercises;
+    }
+
+    public ArrayList<Theme> getAllThemes() throws URISyntaxException, IOException, ParseException, InterruptedException {
         var units = getUnits();
-        for (Object unitObj: units) {
-            var unit = (JSONObject) unitObj;
-            var title = (String) unit.get("title");
-            var id = (String) unit.get("id");
-            themes.put(id, title);
+        var themes = new ArrayList<Theme>();
+        for (var unit: units) {
+            themes.add(unitToTheme((JSONObject) unit));
         }
         return themes;
     }
 
-    /**
-     * Метод возвращает словарь id упражнения - название
-     * @return HashMap(exerciseID, exerciseTitle)
-     */
-    public HashMap<String, String> getIdExercises() throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var slides = getAllExerciseSlides();
-        var result = new HashMap<String, String>();
-        for (var slideObj: slides) {
+    private ArrayList<Practice> getUnitPractices(JSONObject unit) {
+        var practices = new ArrayList<Practice>();
+        for (var slideObj: getUnitSlides(unit)) {
             var slide = (JSONObject) slideObj;
-            result.put((String) slide.get("id"), (String) slide.get("title"));
+            if (isSlideIsPractice(slide)) {
+                practices.add(slideToPractice(slide));
+            }
         }
-
-        return result;
+        return practices;
     }
 
-    /**
-     * Метод возвращает словарь id практики - название
-     * @return HashMap(practiceID, practiceTitle)
-     */
-    public HashMap<String, String> getIdPractices() throws URISyntaxException, IOException, ParseException, InterruptedException {
-        var slides = getAllPracticesSlides();
-        var result = new HashMap<String, String>();
-        for (var slideObj: slides) {
+    private ArrayList<Exercise> getUnitExercises(JSONObject unit) {
+        var exercises = new ArrayList<Exercise>();
+        for (var slideObj: getUnitSlides(unit)) {
             var slide = (JSONObject) slideObj;
-            result.put((String) slide.get("id"), (String) slide.get("title"));
+            if (isSlideIsExercise(slide)) {
+                exercises.add(slideToExercise(slide));
+            }
         }
-
-        return result;
+        return exercises;
     }
 
-    private JSONObject getThemeUnit(String themeID) throws URISyntaxException, IOException, ParseException, InterruptedException {
-        for (var unitObj: getUnits()) {
-            var unit = (JSONObject) unitObj;
-            if (((String)unit.get("id")).equals(themeID))
-                return unit;
-        }
-        throw new IllegalArgumentException();
+    private Practice slideToPractice(JSONObject slide) {
+        return new Practice((String) slide.get("title"), (String) slide.get("id"));
+    }
+
+    private Exercise slideToExercise(JSONObject slide) {
+        return new Exercise((String) slide.get("title"), (String) slide.get("id"));
+    }
+
+    private Theme unitToTheme(JSONObject unit) {
+        var title = (String) unit.get("title");
+        var id = (String) unit.get("id");
+        var practices = getUnitPractices(unit);
+        var exercises = getUnitExercises(unit);
+        return new Theme(title, id, practices, exercises);
     }
 
     private JSONArray getUnitSlides(JSONObject unit) {
         return (JSONArray) unit.get("slides");
-    }
-
-    private JSONArray getUnitPracticesSlides(JSONObject unit) {
-        var slides = getUnitSlides(unit);
-        var result = new JSONArray();
-        for (var slideObj: slides) {
-            var slide = (JSONObject) slideObj;
-            if (isSlideIsPractice(slide))
-                result.add(slide);
-        }
-        return result;
-    }
-
-    private JSONArray getUnitExercisesSlides(JSONObject unit) {
-        var slides = getUnitSlides(unit);
-        var result = new JSONArray();
-        for (var slideObj: slides) {
-            var slide = (JSONObject) slideObj;
-            if (isSlideIsExercise(slide))
-                result.add(slide);
-        }
-        return result;
     }
 
     private JSONArray getUnits() throws URISyntaxException, IOException, ParseException, InterruptedException {
@@ -209,6 +156,7 @@ public class UlearnApiParser {
     }
 
     private JSONObject getResponseJSON() throws URISyntaxException, IOException, InterruptedException, ParseException {
+        //return loadJson();
         if ((new Date()).getTime() - lastJsonUpdate.getTime() < timeToUpdate) {
             return json;
         }
@@ -223,4 +171,11 @@ public class UlearnApiParser {
         json = (JSONObject) new JSONParser().parse(response.body());
         return json;
     }
+
+    private JSONObject loadJson() throws IOException, ParseException {
+        var parser = new JSONParser();
+        return (JSONObject) parser.parse(new FileReader("jsononline-net.json"));
+
+    }
+
 }

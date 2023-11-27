@@ -8,6 +8,12 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.sql.SQLException;
 
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args)
             throws
@@ -21,36 +27,35 @@ public class Main {
         var dbFilename = "basicprogrammingDB.db";
         var csvFilename = "basicprogramming.csv";
 
+        var app = new CsvConsoleApp(new Scanner(System.in), token, dbFilename);
+        app.Run();
+
         var api = new UlearnApiParser(token);
+        var parser = new CsvParser(csvFilename);
         var db = new SqliteConnection(dbFilename);
         db.connect();
-        var parser = new CsvParser(csvFilename);
-
-
-        var exercises = ArrayUtils.toStringArray(api.getIdExercises().keySet().toArray());
-        var practices = ArrayUtils.toStringArray(api.getIdPractices().keySet().toArray());
-        db.createTablesIfNotExists(exercises, practices);
-
-        var idThemes = api.getIdThemes();
-        db.addIdThemes(idThemes);
-
-        var idPract = api.getIdPractices();
-        db.addIdPractices(idPract);
-
-        var idExerc = api.getIdExercises();
-        db.addIdExercises(idExerc);
-
-        var pract = api.getThemesPracticesIDs();
-        var exer = api.getThemesExercisesIDs();
-        db.addThemesPracticesAndExercises(exer, pract);
-
-        var practicesScores = parser.parsePracticesScores();
-        db.addPracticesScores(practicesScores);
-
-        var exercisesScores = parser.parseExercisesScores();
-        db.addExercisesScores(exercisesScores);
 
         var students = parser.parseStudents();
+        var exercises = api.getAllExercises();
+        var practices = api.getAllPractices();
+        var themes = api.getAllThemes();
+        var exercisesScores = parser.parseUsersExercisesScores(exercises);
+        var practicesScores = parser.parseUsersPracticesScores(practices);
+
+        db.createTablesIfNotExists(exercises, practices);
         db.addStudentsToDataBase(students);
+        db.addPractices(practices);
+        db.addExercises(exercises);
+        db.addThemes(themes);
+        db.addExercisesScores(exercisesScores);
+        db.addPracticesScores(practicesScores);
+
+        var studentsDB = db.getStudents();
+        var exercisesDB = db.getExercises();
+        var practicesDB = db.getPractices();
+        var themesDB = db.getThemes();
+        var exercisesScoresDB = db.getUidExercisesScores();
+        var practicesScoresDB = db.getUidPracticesScores();
     }
 }
+
