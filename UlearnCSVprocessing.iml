@@ -11,15 +11,7 @@
     <orderEntry type="library" exported="" name="json-simple-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="opencsv-5.8" level="project" />
     <orderEntry type="library" exported="" name="sqlite-jdbc-3.7.2" level="project" />
-    <orderEntry type="library" exported="" name="experimental" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/24.0.0/annotations-24.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="jfreechart-1.5.4" level="project" />
+    <orderEntry type="library" exported="" name="jcommon-1.0.24" level="project" />
   </component>
 </module>

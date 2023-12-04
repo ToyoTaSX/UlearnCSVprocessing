@@ -223,10 +223,18 @@ public class SqliteConnection {
         return getUidScores(exercises, "ExercisesScores");
     }
 
+    public HashMap<Exercise, ArrayList<Integer>> getExercisesScores() throws SQLException {
+        return getScores(getUidExercisesScores());
+    }
+
     public HashMap<String, HashMap<Practice, Integer>> getUidPracticesScores() throws SQLException {
         var practices = getPractices();
         return getUidScores(practices, "PracticesScores");
 
+    }
+
+    public HashMap<Practice, ArrayList<Integer>> getPracticesScores() throws SQLException {
+        return getScores(getUidPracticesScores());
     }
 
     private <T extends CourseElement>  HashMap<String, HashMap<T, Integer>> getUidScores(ArrayList<T> elems, String tableName)
@@ -244,6 +252,22 @@ public class SqliteConnection {
             res.put(uid, scores);
         }
         return res;
+    }
+
+    private <T extends CourseElement> HashMap<T, ArrayList<Integer>> getScores(HashMap<String, HashMap<T, Integer>> uidScores) {
+        var result = new HashMap<T, ArrayList<Integer>>();
+        for (var map: uidScores.values()) {
+            for (var item: map.entrySet()) {
+                var key = item.getKey();
+                var score = item.getValue();
+                if (result.containsKey(key)) {
+                    result.get(key).add(score);
+                } else {
+                    result.put(key, new ArrayList<>(score));
+                }
+            }
+        }
+        return result;
     }
 
 
