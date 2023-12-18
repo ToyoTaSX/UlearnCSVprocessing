@@ -155,6 +155,9 @@ public class SqliteConnection {
         addUidScores(allScores, "ExercisesScores");
     }
 
+    /**
+     * Возвращает список всех практик из базы
+     */
     public ArrayList<Practice> getPractices() throws SQLException {
         var q = "SELECT id, title FROM Practices;";
         var queryRes = st.executeQuery(q);
@@ -167,6 +170,9 @@ public class SqliteConnection {
         return result;
     }
 
+    /**
+     * Возвращает список всех упражнений из базы
+     */
     public ArrayList<Exercise> getExercises() throws SQLException {
         var q = "SELECT id, title FROM Exercises;";
         var queryRes = st.executeQuery(q);
@@ -179,6 +185,9 @@ public class SqliteConnection {
         return result;
     }
 
+    /**
+     * Возвращает список всех тем из базы
+     */
     public ArrayList<Theme> getThemes() throws SQLException, ParseException {
         var titles = getThemesTitles();
         var themes = new ArrayList<Theme>();
@@ -203,6 +212,9 @@ public class SqliteConnection {
         return themes;
     }
 
+    /**
+     * Возвращает список всех студентов из базы
+     */
     public ArrayList<Student> getStudents() throws SQLException {
         var q = "SELECT * FROM Students;";
         var queryRes = st.executeQuery(q);
@@ -218,21 +230,33 @@ public class SqliteConnection {
         return result;
     }
 
+    /**
+     * Возвращает словарь словарей: [ uid - (exercise - score) ]
+     */
     public HashMap<String, HashMap<Exercise, Integer>> getUidExercisesScores() throws SQLException {
         var exercises = getExercises();
         return getUidScores(exercises, "ExercisesScores");
     }
 
+    /**
+     * Возвращает словарь: [ exercise - scoresList ]
+     */
     public HashMap<Exercise, ArrayList<Integer>> getExercisesScores() throws SQLException {
         return getScores(getUidExercisesScores());
     }
 
+    /**
+     * Возвращает словарь словарей: [ uid - (practice - score) ]
+     */
     public HashMap<String, HashMap<Practice, Integer>> getUidPracticesScores() throws SQLException {
         var practices = getPractices();
         return getUidScores(practices, "PracticesScores");
 
     }
 
+    /**
+     * Возвращает словарь: [ practice - scoresList ]
+     */
     public HashMap<Practice, ArrayList<Integer>> getPracticesScores() throws SQLException {
         return getScores(getUidPracticesScores());
     }

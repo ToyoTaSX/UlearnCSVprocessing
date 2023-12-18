@@ -1,5 +1,7 @@
 package classes;
 
+import java.util.Objects;
+
 public abstract class CourseElement {
 
     protected String id;
@@ -33,5 +35,17 @@ public abstract class CourseElement {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof CourseElement))
+            return false;
+        return Objects.equals(((CourseElement) obj).getId(), getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, title);
     }
 }
